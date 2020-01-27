@@ -8,3 +8,5 @@ Blumenstock suggests ways to counter these issues including:
 1. customization of the algorithms and patterns used to collect data
 2. Foster collaboration among scientists, government agencies, private companies, and other organizations. 
 3. Validation of old data with newer versions of data collected; in other words, new data should complement older data. 
+
+Good intent and transparency are both crucial factors to development of data science. I agree with both statements that good intent is not enough since other external factors might manipulate people to change the context and foundations of the data which in turn damages the whole database. Good intent should be accompanied with strong will and commitment to truth and honesty at any price. Transparency of data can also address a lot of issues because it allows all the users to see when, where, why, how, and by whom data was used. Regarding the third statement, I should agree as well. When handling issues to remove hindrances on the path of promoting applications of data science considering the development of human development, it could be diffcult to balance between different situations or requirements. 
