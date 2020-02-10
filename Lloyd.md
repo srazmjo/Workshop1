@@ -18,4 +18,9 @@ human populations can accurately describe human population distribution and anal
  spatial datasets enables data scientists to precisely model patterns of epidemic, disease, accessibility issues, disaster management,
  poverty mapping, and environmental problems facing a specific area. Compared to conventional census data, these data sets can 
  significantly improve the national scale gridded population data. From the other hand, the disaggregation of the data sets and breaking up
- a large data into multiple different constituents can enhance the precision 
+ a large data into multiple different constituents parts can enhance the precision of the data. This solution also enables scientists 
+ to process data at a high scale -meaning that they can visualize and analyze data at a much higher resolution, for example 100m x 100m as the text mentions. 
+ Rasters images consist of a grid of pixels of particular size with each apportionment of the pixel having a different x and y coordinate value. Rasters are used in GIS applications where they represent elevation models of earth's surface. 
+ Data scientists also use areal-weighting method which includes uniform distribution and proportional allocation to disaggregate population
+ from census units into grid cells in order to create an exclusive function of the land area which details the area's population count 
+ and density. 
