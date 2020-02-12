@@ -16,7 +16,7 @@ Description
 
 ### Eastern Gabon States
 Description 
-1[](Gabon_stretch_goal_3.png)
+![](Gabon_stretch_goal_3.png)
 
 
 
