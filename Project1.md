@@ -31,5 +31,7 @@ The Ogooué-Lolo Province is one of the nine provinces of Gabon, slightly southe
 The Ogooué-Ivindo province is the northeastern-most of Gabon's nine provinces, though its Lopé Department is in the very center of the country. The regional capital is Makokou, which is home to one-third of the provincial population. It gets its name from two rivers, the Ogooué and the Ivindo. This province is the largest, least populated, and least developed of the nine.
 ![](Gabon_stretch_goal_3.png)
 
-
+### Population distribution map over Gabon's 9 provinces
+Gabon has a total of 2.1 million population with Libreville, Estuaire being the most populated city with 703,940 people living in it. That is the reason the heat map is red on Estuaire province. Ngounié is the least populated province accross all 9 provinces. 
+![](Gabon_population_map.png)
 
