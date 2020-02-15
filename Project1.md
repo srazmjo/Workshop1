@@ -35,3 +35,12 @@ The Ogooué-Ivindo province is the northeastern-most of Gabon's nine provinces, 
 Gabon has a total of 2.1 million population with Libreville, Estuaire being the most populated city with 703,940 people living in it. That is the reason the heat map is red on Estuaire province. Ngounié is the least populated province accross all 9 provinces. 
 ![](Gabon_population_map.png)
 
+### Population distribution map over Gabon's districts
+As previously mentioned, the western coast of Gabon is heavily populated due to its proximity to big waters. The Estuaire province, the capital of Gabon, is home to more than 700,000 people. The eastern coast of Gabon is less populated compared to the western coast. This map shows the population distribution over Gabon's districts
+![](project_1_part2_stretch_goal_1.png)
+
+### population distribution map (districts and provinces both shown)
+![](project_1_part2_stretch_goal_2.png)
+
+### 3-D Visual description of Population distribution in Gabon
+![](Project_1_part2_stretch_goal_3.gif)
