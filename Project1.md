@@ -18,7 +18,7 @@ representatives for subdepartments.
 ![](Gabon.png)
 
 ### Healthsites Accros Gabon
-Description 
+Most of Gabon's health facilities are public, but there are some private institutions as well. Gabon's medical infrastructure is considered one of the best in West Africa. As of 2004, there are 29 physicians per 100,000 people, with nearly 90% of people having access to health care services. 
 ![](Gabon_stretch_goal_1.png)
 
 ### Southern Gabon Coast (Nyanga County)
