@@ -22,12 +22,13 @@ Most of Gabon's health facilities are public, but there are some private institu
 ![](Gabon_stretch_goal_1.png)
 
 ### Southern Gabon Coast (Nyanga County)
-Nyanga is the southernmost of Gabon's nine provinces. The provincial capital is Tchibanga, which had a total of 31294 inhabitants in 2013 (more than the half of the province population). Nyanga is the least populated province of the nine and the other least developed despite being the southern coast of Gabon with sea ports and trade routes.
+Nyanga is the southernmost of Gabon's nine provinces. The provincial capital is Tchibanga, which had a total of 31294 inhabitants in 2013 (more than the half of the province population). Nyanga is the least populated province of the nine and one of the least developed despite being the southern coast of Gabon with sea ports and trade routes.
 ![](Gabon_stretch_goal_2.png)
 
 
 ### Eastern Gabon States
-
+The Ogooué-Lolo Province is one of the nine provinces of Gabon, slightly southeast of central Gabon. The regional capital is Koulamoutou, a city of approximately 16,000 people. It is the ninth largest city in Gabon and the home of slightly more than one-third of the provincial population.
+The Ogooué-Ivindo province is the northeastern-most of Gabon's nine provinces, though its Lopé Department is in the very center of the country. The regional capital is Makokou, which is home to one-third of the provincial population. It gets its name from two rivers, the Ogooué and the Ivindo. This province is the largest, least populated, and least developed of the nine.
 ![](Gabon_stretch_goal_3.png)
 
 
