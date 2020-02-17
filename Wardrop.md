@@ -3,6 +3,8 @@ data can be outdated, inaccurate, or missing key groups and societies. They also
 technologies are now enabling robust and cost-effective solutions. Two new approaches offered in this
 article to limit the inefficiency of population and housing census are "Top-down" and "Bottom-up" 
 methods. 
+
+
 The top-down techniques draw on ancillary or “covariate” data to redistributedata at finer scales 
 by defining a functional relationship between, in this case, population density and the mapped ancillary
 data. After the rapid advancement in technologies in the mid 1990s, data scientists and researchers
@@ -18,6 +20,8 @@ to this method as well. The central challenge to the accuracy of top-down disagg
 reliability of input population data. Since this method is resource-intensive and requires modern
 technologies, especially in low-income countries, this method might now work well as desired given the 
 frequent changes in government, insecurity, mass migrations and ...
+
+
 The other method, called the "bottom-up", despite sharing a common goal of producing population
 estimates for small areas, uses a different approach. Conceptually, bottom-up estimation of population 
 relies on complete counts of population within small, defined areas, and collected relatively rapidly 
