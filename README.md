@@ -9,7 +9,7 @@ Sayyed Hadi Razmjo
 ## Reading Responses
 1. [Blumenstock Response](https://github.com/srazmjo/Workshop1/blob/master/blumenstock.md) (Jan. 27th)
 2. [Lloyd Response](https://github.com/srazmjo/Workshop1/blob/master/Lloyd.md) (Feb. 10th)
-3. [Wardrop Response](https://github.com/srazmjo/Workshop1/blob/master/Wardrop.md)
+3. [Wardrop Response](https://github.com/srazmjo/Workshop1/blob/master/Wardrop.md) (Feb. 17th)
 
 
 ## Projects
