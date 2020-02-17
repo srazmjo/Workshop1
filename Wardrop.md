@@ -33,4 +33,4 @@ population sizes. The bottom-up estimation entails (i) microcensus population en
 (ii) linkage with relevant ancillary datasets; and (iii) definition of the functional relationships 
 between ancillary datasets and the population data to predict populations in unsurveyed locations. 
 A limitation to this approach is related to the use and broader impacts of population-mapping 
-activities. 
+activities. making claims about a population total even using a national census is a highly political and contentious issue. The results affect all per capita rate estimates, shift political representation, and change claims to power or resources. 
