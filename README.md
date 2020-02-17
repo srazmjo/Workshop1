@@ -4,7 +4,7 @@ Sayyed Hadi Razmjo
 ## Workshop
 1. [Challenge Question](https://github.com/srazmjo/Workshop1/blob/master/Challenge_question.png)
 2. [First_Plot](https://github.com/srazmjo/Workshop1/blob/master/plot2.png)
-3. [Linear_Plot_with_Vectors](https://srazmjo.github.io/Workshop1/Rplot)
+3. [Linear_Plot_with_Vectors](https://srazmjo.github.io/Workshop1/Rplot.png)
 
 ## Reading Responses
 1. [Blumenstock Response](https://srazmjo.github.io/Workshop1/blumenstock) (Jan. 27th)
