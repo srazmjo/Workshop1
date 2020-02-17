@@ -7,13 +7,13 @@ Sayyed Hadi Razmjo
 3. [Linear_Plot_with_Vectors](https://github.com/srazmjo/Workshop1/blob/master/Rplot.png)
 
 ## Reading Responses
-1. [Blumenstock Response](https://github.com/srazmjo/Workshop1/blob/master/blumenstock.md) (Jan. 27th)
-2. [Lloyd Response](https://github.com/srazmjo/Workshop1/blob/master/Lloyd.md) (Feb. 10th)
-3. [Wardrop Response](https://github.com/srazmjo/Workshop1/blob/master/Wardrop.md) (Feb. 17th)
+1. [Blumenstock Response](https://srazmjo.github.io/Workshop1/blumenstock) (Jan. 27th)
+2. [Lloyd Response](https://srazmjo.github.io/Workshop1/Lloyd) (Feb. 10th)
+3. [Wardrop Response](https://srazmjo.github.io/Workshop1/Wardrop) (Feb. 17th)
 
 
 ## Projects
-1. [Project_1](https://github.com/srazmjo/Workshop1/blob/master/Project1) (Feb. 10th)
+1. [Project_1](https://srazmjo.github.io/Workshop1/Project1) (Feb. 10th)
 
 
 
