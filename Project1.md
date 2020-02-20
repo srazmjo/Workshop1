@@ -44,3 +44,7 @@ As previously mentioned, the western coast of Gabon is heavily populated due to 
 
 ### 3-D Visual description of Population distribution in Gabon
 ![](Project_1_part2_stretch_goal_3.gif)
+
+
+### Population Distribution in Gabon on a geometric bar
+![](project_1_part3_Ordered_filled_geom_bar.png)
