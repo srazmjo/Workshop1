@@ -2,7 +2,6 @@
 # Project 1: Gabon
 Sayyed Hadi Razmjo
 
-[Back to the Main Page](https://srazmjo.github.io/Workshop1/)
 ### Administration subdivisions of Gabon
 Gabon, officially the Gabonese Republic, is a country on the west coast of Central Africa with an area of nearly 100,000 sq mi and 
 population of 2.1 million people. Gabon is divided into 9 provinces: 
