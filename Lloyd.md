@@ -1,8 +1,10 @@
+By Sayyed Hadi Razmjo on February 10th
+
 Keywords: 
 Scale,
 Disaggregation, 
 administrative area, 
-grid cells & rasters, and uniform distribution
+grid cells & rasters, and uniform distribution. 
 
 Question: 
 Perspective Question: In the Lloyd et al. article, the authors introduce a method that uses a number of different openly available 
