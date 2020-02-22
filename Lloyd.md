@@ -1,7 +1,8 @@
-Scale
-Disaggregation
-administrative area
-grid cells/ rasters. 
+Keywords: 
+Scale,
+Disaggregation, 
+administrative area, 
+grid cells % rasters, and  
 uniform distribution
 
 Question: 
