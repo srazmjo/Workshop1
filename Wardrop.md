@@ -1,10 +1,9 @@
-Sayyed Hadi Razmjo
-Feb. 17th
+By Sayyed Hadi Razmjo on February 17th
 
 
 In the reading for today, the authors (Wardrop et al.) introduce a top-down approach as well as a bottom-up approach. Describe each of these two methods. Compare and contrast them with one another. What advantages do these new methodologies present when compared to past approaches? Are you able to provide an example of each (bonus)?
 
-In the article, the authors assert that the past approaches for measuring national population and housing
+In this article, the authors assert that the past approaches for measuring national population and housing
 data can be outdated, inaccurate, or missing key groups and societies. They also discuss how new 
 technologies are now enabling robust and cost-effective solutions. Two new approaches offered in this
 article to limit the inefficiency of population and housing census are "Top-down" and "Bottom-up" 
