@@ -3,7 +3,7 @@
 By Sayyed Hadi Razmjo
 
 ### Administration subdivisions of Gabon
-Gabon, officially the Gabonese Republic, is a country on the west coast of Central Africa with an area of nearly 100,000 sq mi and 
+Gabon is a country on the west coast of Central Africa with an area of nearly 100,000 sq mi and 
 population of 2.1 million people. Gabon is divided into 9 provinces: 
 1. Estuaire (Libreville) - Captial province
 2. Haut-Ogooué (Franceville)
@@ -14,8 +14,7 @@ population of 2.1 million people. Gabon is divided into 9 provinces:
 7. Ogooué-Lolo (Koulamoutou)
 8. Ogooué-Maritime (Port-Gentil)
 9. Woleu-Ntem (Oyem)
-Gabon is then divided into another 50 departments, with the president appointing one main governor for each province and 50 other 
-representatives for subdepartments. Located on the equator, Gabon is bordered by Equatorial Guinea to the northwest, Cameroon to the north, the Republic of the Congo on the east and south, and the Gulf of Guinea to the west. Abundant petroleum and foreign private investment have helped make Gabon one of the most prosperous countries in Sub-Saharan Africa, with the fourth highest GDP per capita in the region. GDP grew by more than 6% per year from 2010 to 2012. However, because of inequality in income distribution, a significant proportion of the population remains poor.
+Gabon is then divided into another 50 departments. Located on the equator, Gabon is bordered by Equatorial Guinea to the northwest, Cameroon to the north, the Republic of the Congo on the east and south, and the Gulf of Guinea to the west. Abundant petroleum and foreign private investment have helped make Gabon one of the most prosperous countries in Sub-Saharan Africa, with the fourth highest GDP per capita in the region. GDP grew by more than 6% per year from 2010 to 2012. However, because of inequality in income distribution, a significant proportion of the population remains poor.
 
 
 ![](Gabon.png)
@@ -66,3 +65,6 @@ This is just a compare and contrast between two maps and showing them side by si
 ### Geometric bar describing Gabon's population density based on its sub districts. 
 This geometric bar shows the population distribution over Gabon's districts. The density of Komo-Mondah district, located in capital Liberville, Estuaire, simply outweighs almost 7 other provinces based on its density. This single district is denser than all other 7 provinces. It is almost twice as denser as Haut-Ogoouie province, one of the most important provinces in Gabon. 
 ![](project_1_part3_stretch_goal_1.png) 
+
+Citations:
+
