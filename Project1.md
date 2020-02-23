@@ -1,11 +1,11 @@
 
 # Project 1: Gabon
-Sayyed Hadi Razmjo
+By Sayyed Hadi Razmjo
 
 ### Administration subdivisions of Gabon
 Gabon, officially the Gabonese Republic, is a country on the west coast of Central Africa with an area of nearly 100,000 sq mi and 
 population of 2.1 million people. Gabon is divided into 9 provinces: 
-1. Estuaire (Libreville)
+1. Estuaire (Libreville) - Captial province
 2. Haut-Ogooué (Franceville)
 3. Moyen-Ogooué (Lambaréné)
 4. Ngounié (Mouila)
@@ -15,7 +15,9 @@ population of 2.1 million people. Gabon is divided into 9 provinces:
 8. Ogooué-Maritime (Port-Gentil)
 9. Woleu-Ntem (Oyem)
 Gabon is then divided into another 50 departments, with the president appointing one main governor for each province and 50 other 
-representatives for subdepartments. 
+representatives for subdepartments. Located on the equator, Gabon is bordered by Equatorial Guinea to the northwest, Cameroon to the north, the Republic of the Congo on the east and south, and the Gulf of Guinea to the west. Abundant petroleum and foreign private investment have helped make Gabon one of the most prosperous countries in Sub-Saharan Africa, with the fourth highest GDP per capita in the region. GDP grew by more than 6% per year from 2010 to 2012. However, because of inequality in income distribution, a significant proportion of the population remains poor.
+
+
 ![](Gabon.png)
 
 ### Healthsites Accros Gabon
@@ -23,17 +25,17 @@ Most of Gabon's health facilities are public, but there are some private institu
 ![](Gabon_stretch_goal_1.png)
 
 ### Southern Gabon Coast (Nyanga County)
-Nyanga is the southernmost of Gabon's nine provinces. The provincial capital is Tchibanga, which had a total of 31294 inhabitants in 2013 (more than the half of the province population). Nyanga is the least populated province of the nine and one of the least developed despite being the southern coast of Gabon with sea ports and trade routes.
+Nyanga is the southernmost of Gabon's nine provinces. The provincial capital is Tchibanga, which had a total of 31294 inhabitants in 2013 (more than the half of the province population). Nyanga is the least populated province of the nine and one of the least developed despite being the southern coast of Gabon with sea ports and trade routes. The Atlantic Ocean—the lowest point in both Gabon and Nyanga Province—borders it in the west. Nyanga is divided into 3 districts: Douigny, Basse Banio, and Nauti Banio which is then divided into 6 other sub-departments. 
 ![](Gabon_stretch_goal_2.png)
 
 
-### Eastern Gabon States
-The Ogooué-Lolo Province is one of the nine provinces of Gabon, slightly southeast of central Gabon. The regional capital is Koulamoutou, a city of approximately 16,000 people. It is the ninth largest city in Gabon and the home of slightly more than one-third of the provincial population.
+### Nyanga County with two other Eastern Gabon States
+The Ogooué-Lolo Province is one of the nine provinces of Gabon, slightly southeast of central Gabon. It has a total area of 9,800 sq mi. The regional capital is Koulamoutou, a city of approximately 16,000 people. It is the ninth largest city in Gabon and the home of slightly more than one-third of the provincial population.
 The Ogooué-Ivindo province is the northeastern-most of Gabon's nine provinces, though its Lopé Department is in the very center of the country. The regional capital is Makokou, which is home to one-third of the provincial population. It gets its name from two rivers, the Ogooué and the Ivindo. This province is the largest, least populated, and least developed of the nine.
 ![](Gabon_stretch_goal_3.png)
 
 ### Population distribution map over Gabon's 9 provinces
-Gabon has a total of 2.1 million population with Libreville, Estuaire being the most populated city with 703,940 people living in it. That is the reason the heat map is red on Estuaire province. Ngounié is the least populated province accross all 9 provinces. 
+Gabon has a total of 2.1 million population with Libreville, Estuaire being the most populated city with 703,940 people living in it. That is the reason the heat map is red on Estuaire province. Ngounié is the least populated province accross all 9 provinces. As obvious on the map, the western coast of Gabon is a major trade center and that is the reason western coast cities and provinces have relatively more population than central and eastern provinces of Gabon. Gabon's economy is mostly dependent on oil reserves which is concentrated in western cities. Haut-Ogoouie, eastern border of Gabon, having the famous Mpassa river crossing it, is a trade route to Republic of Congo, a major customer for Gabon's oil reserves. This clearly proves the fact that people have populated the major cities and have left the central part of Gabon relatively vacant. In fact, Central Gabon has one of the least population density across the region. This also shows the spread of poverty in Gabon. The richest 20% of the population earn over 90% of the income while about a third of the Gabonese population lives in absolute poverty.
 ![](Gabon_population_map.png)
 
 ### Population distribution map over Gabon's districts
