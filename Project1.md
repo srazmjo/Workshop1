@@ -14,17 +14,18 @@ population of 2.1 million people. Gabon is divided into 9 provinces:
 7. Ogooué-Lolo (Koulamoutou)
 8. Ogooué-Maritime (Port-Gentil)
 9. Woleu-Ntem (Oyem)
-Gabon is then divided into another 50 departments. Located on the equator, Gabon is bordered by Equatorial Guinea to the northwest, Cameroon to the north, the Republic of the Congo on the east and south, and the Gulf of Guinea to the west. Abundant petroleum and foreign private investment have helped make Gabon one of the most prosperous countries in Sub-Saharan Africa, with the fourth highest GDP per capita in the region. GDP grew by more than 6% per year from 2010 to 2012. However, because of inequality in income distribution, a significant proportion of the population remains poor.
 
+
+Gabon is then divided into another 50 departments. Located on the equator, Gabon is bordered by Equatorial Guinea to the northwest, Cameroon to the north, the Republic of the Congo on the east and south, and the Gulf of Guinea to the west. Abundant petroleum and foreign private investment have helped make Gabon one of the most prosperous countries in Sub-Saharan Africa, with the fourth highest GDP per capita in the region. GDP grew by more than 6% per year from 2010 to 2012. However, because of inequality in income distribution, a significant proportion of the population remains poor.
 
 ![](Gabon.png)
 
 ### Healthsites Accros Gabon
-Most of Gabon's health facilities are public, but there are some private institutions as well. Gabon's medical infrastructure is considered one of the best in West Africa. As of 2004, there are 29 physicians per 100,000 people, with nearly 90% of people having access to health care services. Since the western provinces of Gabon is heavily populated due to proximity of water, major public health facilities are also located in there. The red dots on the map shown show the main health facilities through Gabon. The eastern part of Gabon, heavily populated by the lower and middle income families has limited access to an ideal health care services. 
+Gabon's medical infrastructure is considered one of the best in West Africa. As of 2004, there are 29 physicians per 100,000 people, with nearly 90% of people having access to health care services. Since the western provinces of Gabon is heavily populated due to proximity of water, major public health facilities are also located in there. The red dots on the map shown show the main health facilities through Gabon. The eastern part of Gabon, heavily populated by the lower and middle income families has limited access to an ideal health care services, although there are some health care sites in Haut-Ogoouie province, a major trading center in Gabon. 
 ![](Gabon_stretch_goal_1.png)
 
 ### Southern Gabon Coast (Nyanga County)
-Nyanga is the southernmost of Gabon's nine provinces. The provincial capital is Tchibanga, which had a total of 31294 inhabitants in 2013 (more than the half of the province population). Nyanga is the least populated province of the nine and one of the least developed despite being the southern coast of Gabon with sea ports and trade routes. The Atlantic Ocean—the lowest point in both Gabon and Nyanga Province—borders it in the west. Nyanga is divided into 3 districts: Douigny, Basse Banio, and Nauti Banio which is then divided into 6 other sub-departments. 
+Nyanga is the southernmost of Gabon's nine provinces. The provincial capital is Tchibanga, which had a total of 31294 inhabitants in 2013. Nyanga is the least populated province of the nine and one of the least developed despite being the southern coast of Gabon with sea ports and trade routes. The Atlantic ocean is located on the western side of Nyanga, making it an strategically important province. Nyanga is divided into 3 districts: Douigny, Basse Banio, and Nauti Banio which is then divided into 6 other sub-departments. 
 ![](Gabon_stretch_goal_2.png)
 
 
@@ -46,7 +47,7 @@ This map shows log of population distribution across provinces and districts wit
 ![](project_1_part2_stretch_goal_2.png)
 
 ### 3-D Visual description of Population distribution in Gabon
-Using Rayshader library, this 3-D visual description of population distribution enables the reader to easily analyse the data gathered by the scientists. The provinces with higher population are shown higher in height and provinces with lower population are shown with shorter heights. This visual is also filled with three colors to ease distinguishing densely populated cities from less populated cities. 
+Using Rayshader library, this 3-D visual description of population distribution enables the scientists to easily analyse the gathered data. The provinces with higher population are shown higher in height and provinces with lower population are shown with shorter heights. This visual is also filled with three colors to ease distinguishing densely populated cities from less populated cities. 
 ![](Project_1_part2_stretch_goal_3.gif)
 
 
@@ -66,5 +67,10 @@ This is just a compare and contrast between two maps and showing them side by si
 This geometric bar shows the population distribution over Gabon's districts. The density of Komo-Mondah district, located in capital Liberville, Estuaire, simply outweighs almost 7 other provinces based on its density. This single district is denser than all other 7 provinces. It is almost twice as denser as Haut-Ogoouie province, one of the most important provinces in Gabon. 
 ![](project_1_part3_stretch_goal_1.png) 
 
-Citations:
+#### Citations
+The content information present in this webpage was gathered from the following sources:
+1. “Gabon.” Wikipedia, Wikimedia Foundation, 22 Feb. 2020, en.wikipedia.org/wiki/Gabon.
+2. “GADM Maps and Data.” GADM, gadm.org/.
+3. “Nyanga Province.” Wikipedia, Wikimedia Foundation, 18 Jan. 2019, en.wikipedia.org/wiki/Nyanga_Province.
+4. “The Humanitarian Data Exchange.” Welcome - Humanitarian Data Exchange, data.humdata.org/.
 
