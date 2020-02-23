@@ -43,20 +43,26 @@ As previously mentioned, the western coast of Gabon is heavily populated due to 
 ![](project_1_part2_stretch_goal_1.png)
 
 ### population distribution map (districts and provinces both shown)
+This map shows log of population distribution across provinces and districts with three colors distinguishing cities with least, average, and highest number of population. 
 ![](project_1_part2_stretch_goal_2.png)
 
 ### 3-D Visual description of Population distribution in Gabon
+Using Rayshader library, this 3-D visual description of population distribution enables the reader to easily analyse the data gathered by the scientists. The provinces with higher population are shown higher in height and provinces with lower population are shown with shorter heights. This visual is also filled with three colors to ease distinguishing densely populated cities from less populated cities. 
 ![](Project_1_part2_stretch_goal_3.gif)
 
 
 ### Population Distribution in Gabon on a geometric bar
+Based on the data gathered from GADM and HDX, as anticipated previously, Estuaire is home to 38.51% of Gabon's citizens. Nyanga is ranked the last with 2.40% of Gabon's population living in it. Except Estuaire and Haut-Ogoouie (Gabon's major business centers), that have more than 15% of Gabon's population, other provinces all have 10% or lesser percent of population, which once again shows the uneven settlement across Gabon. 
 ![](project_1_part3_Ordered_filled_geom_bar.png)
 
 ### Population Density on Gabon's each province
+As stated previously, Gabon has one of the least population density statistics across the region. Nyanga has a surprising 3.2 people living on 1 km^2. On the other hand, Estuaire has a density of 56.18 despite being about the same area size as Nyanga. People tend to leave the suburbs to move to the main cities in order to get better jobs and earn more money to survive. Again except Estuaire and Haut-Ogoouie, that have double digits density, all other provinces have less 9 people living on a square kilometer. 
 ![](project_1_part3_population_map_with_density.png)
 
 ### Population Density and Geometric bar visual representation side by side
+This is just a compare and contrast between two maps and showing them side by side to better translate the data. 
 ![](project_1_part3_population_side_by_side.png)
 
 ### Geometric bar describing Gabon's population density based on its sub districts. 
+This geometric bar shows the population distribution over Gabon's districts. The density of Komo-Mondah district, located in capital Liberville, Estuaire, simply outweighs almost 7 other provinces based on its density. This single district is denser than all other 7 provinces. It is almost twice as denser as Haut-Ogoouie province, one of the most important provinces in Gabon. 
 ![](project_1_part3_stretch_goal_1.png) 
