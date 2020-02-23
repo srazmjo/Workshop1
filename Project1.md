@@ -37,7 +37,7 @@ Gabon has a total of 2.1 million population with Libreville, Estuaire being the 
 ![](Gabon_population_map.png)
 
 ### Population distribution map over Gabon's districts
-As previously mentioned, the western coast of Gabon is heavily populated due to its proximity to big waters. The Estuaire province, the capital of Gabon, is home to more than 700,000 people. The eastern coast of Gabon is less populated compared to the western coast. This map shows the population distribution over Gabon's districts
+As previously mentioned, the western coast of Gabon is heavily populated due to its proximity to big waters. The Estuaire province, the capital of Gabon, is home to more than 700,000 people. The eastern coast of Gabon is less populated compared to the western coast. This map shows the population distribution over Gabon's districts with light red showing the districts with the least population and dark red representing the districts with the highest populations. Per population map, Komo-Mondah is the most populated district which is located in the Estuaire province, the capital of Gabon. Mpassa district, Franceville, located on the eastern part of Gabon, is also highly populated. Franceville is one of the four largest cities in Gabon, with a population of around 110,568 people. It lies on the River Mpassa and at the end of the Trans-Gabon Railway and the N3 road, which is the reason that Mpassa district is a trade center in Gabon. Central districts are almost evenly populated which clearly shows a pattern of even resource distribution in central Gabon. 
 ![](project_1_part2_stretch_goal_1.png)
 
 ### population distribution map (districts and provinces both shown)
