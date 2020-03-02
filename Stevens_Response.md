@@ -1,4 +1,4 @@
-1. In the reading for Tuesday and today (Stevens et al.) the authors use a technique to produce a high resolution description of the 
+Question 1: In the reading for Tuesday and today (Stevens et al.) the authors use a technique to produce a high resolution description of the 
 distribution of uman populations across the globe. What is the name of the technique and describe in general and basic terms how it works?
 
 There are several methods that attempt to disaggregate census data for
@@ -10,7 +10,7 @@ density. This approach is extremely flexible, allowing for incorporating global,
 of both continuous and discrete covariates when finer finer scale data do not exist to are diffcult 
 to process over large areas. 
 
-2. The random forest method used by the authors is a machine learning algorith (ensemble method) In 
+Question 2: The random forest method used by the authors is a machine learning algorithm (ensemble method) In 
 general terms, what is a machine learning algorith? Within the context of this study what distinguishes 
 a data science, machine learning method from previous classical statistical approaches to describing
 and analyzing phenomenon and events?
@@ -26,7 +26,7 @@ is a more accurate model to describe population density weightings. The approach
 benefits from non-parametric statistical predictions based on the best ancillary data available,
 but also anchors those predictions across space to the best available, contemporary administrative boundary-linked GIS census data.
 
-3. In the reading, the authors use a number of geospatial covariates as predictors in their machine
+Question 3: In the reading, the authors use a number of geospatial covariates as predictors in their machine
 learning method. What were these geospatial covariates and approximately how big of a data set did
 they represent (in general terms) what is the significance of big data in the estimation of machine 
 learning methods for inferring the correlates and drivers of human population distribution. 
@@ -35,7 +35,7 @@ Based on the reading, the vector and raster class-based data, (e.g. individual l
 enable scientists to easily analyze and describe population distribution. Moreover, big data classes improves the machine learning as
 well, because the more data we have, the more experienced the algorith becomes. 
 
-4. The authors' results present a remarkable improvement over previous geospatial descriptions at
+Question 4: The authors' results present a remarkable improvement over previous geospatial descriptions at
 very high resolution, of the distribution of the human population. Within the context of human 
 development in LMICs, what is the significance of having a highly accurate description of where
 each person is located across planet earth?
@@ -49,10 +49,10 @@ of having accurate population information has never been more important
 
 
 
-5. Within the context of human development in LMICs, what is the relevance to your area of investigation in having a highly accurate 
+Question 5: Within the context of human development in LMICs, what is the relevance to your area of investigation in having a highly accurate 
 description of where each household and person is located across planet earth?
 
-My chosen LMIC is Gabon. Given the harsh nature and punishing deserts and forests that Gabon has, it is diffcult to located each person and household. If scientists have the knowledge of where each household and person is located across planet earth, they can easily map population distributions. Having a highly accurate, and descriptive population distribution map can be crucial in interpretation of other geospatial data that will be used by local officials to take census, prediction of population growth or decay, and analyzing human-environment interactions. In case of Gabon, having the knowledge of where each person and household is located, can help both the scientists and the govenrment to resolve social issues, healthcare issues, Internet disconnections, and help the people isolated from the main cities. It can be also used by the analyst to confirm if the population
+I have chosen Gabon as my LMIC. Given the harsh nature and punishing deserts and forests that Gabon has, it is diffcult to located each person and household. If scientists have the knowledge of where each household and person is located across planet earth, they can easily map population distributions. Having a highly accurate, and descriptive population distribution map can be crucial in interpretation of other geospatial data that will be used by local officials to take census, prediction of population growth or decay, and analyzing human-environment interactions. In case of Gabon, having the knowledge of where each person and household is located, can help both the scientists and the govenrment to resolve social issues, healthcare issues, Internet disconnections, and help the people isolated from the main cities. It can be also used by the analyst to confirm if the population
 distribution map really matches the actual and real-world data that we have. 
 
 
