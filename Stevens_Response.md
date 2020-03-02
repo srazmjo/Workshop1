@@ -52,8 +52,7 @@ of having accurate population information has never been more important
 5. Within the context of human development in LMICs, what is the relevance to your area of investigation in having a highly accurate 
 description of where each household and person is located across planet earth?
 
-If scientists have the knowledge of where each household and person is located across planet earth, they can easily map population
-distributions. Having a highly accurate, and descriptive population distribution map can be crucial in interpretation of other geospatial data that will be used by local officials to take census. It can be also used by the analyst to confirm if the population
+My chosen LMIC is Gabon. Given the harsh nature and punishing deserts and forests that Gabon has, it is diffcult to located each person and household. If scientists have the knowledge of where each household and person is located across planet earth, they can easily map population distributions. Having a highly accurate, and descriptive population distribution map can be crucial in interpretation of other geospatial data that will be used by local officials to take census, prediction of population growth or decay, and analyzing human-environment interactions. In case of Gabon, having the knowledge of where each person and household is located, can help both the scientists and the govenrment to resolve social issues, healthcare issues, Internet disconnections, and help the people isolated from the main cities. It can be also used by the analyst to confirm if the population
 distribution map really matches the actual and real-world data that we have. 
 
 
