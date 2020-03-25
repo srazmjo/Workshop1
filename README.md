@@ -14,7 +14,8 @@ Sayyed Hadi Razmjo
 
 
 ## Projects
-1. [Project_1](https://srazmjo.github.io/Workshop1/Project1) (Feb. 10th)
+1. [Project_1](https://srazmjo.github.io/Workshop1/Project1) 
+2. [Project_2](https://srazmjo.github.io/Workshop1/project2) 
 
 
 
