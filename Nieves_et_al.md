@@ -1,6 +1,8 @@
 Question 1: Nieves et a. use the random forest machine learning method to predict what value globally?  Describe in detail how random forest works.  What is a dasymmetric population allocation? Which geospatial covariates proved to be the most important when predicting global values of where humans reside?
 
-Answer: Random forests are non-parametric, nonlinear statistical methods that falls within a category of machine-learning methods known as ‘ensemble methods’. Ensemble methods take individual decision trees that are considered ‘weak learners’ and combine them to create a
+Answer: 
+
+Random forests are non-parametric, nonlinear statistical methods that falls within a category of machine-learning methods known as ‘ensemble methods’. Ensemble methods take individual decision trees that are considered ‘weak learners’ and combine them to create a
 ‘strong learner’. The benefits of ensemble methods are that generalizability is increased, performance on large or small datasets is
 improved and the ability of the method to model difficult learning tasks is more effective. Compared with other ensemble methods
 RFs are robust to noise, small sample sizes and over-fitting, yet they need little in the way of parameter specifications. 
