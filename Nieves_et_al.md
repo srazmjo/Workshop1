@@ -12,9 +12,9 @@ data. The decision tree applied to these data and the accuracy of the tree, as m
 stored as the OOB error for that tree. Then the prediction error of entire RF model can be measure by averaging the OOB errors of all trees.
 
 Dasymetric modelling has evolved significantly over the past few years and provided important insights into the relationships between population and ancillary variables. Such analyses have the potential to uncover fundamental patterns in the correlates and drivers of population distributions across the world. Dasymetric mapping is a method that is used to estimate a population layer from input census and covariate data. The general steps are as follows: 
-(i) iterative covariate selection for the RF model 
-(ii) the fitting of the RF model, using all available census units, and creation of a population density weighting layer from the created RF model
-(iii) the dasymetric redistribution of population counts from census-based administrative units to grid cells [29] using the population density weighting layer. 
+1. iterative covariate selection for the RF model 
+2. the fitting of the RF model, using all available census units, and creation of a population density weighting layer from the created RF model
+3. the dasymetric redistribution of population counts from census-based administrative units to grid cells [29] using the population density weighting layer. 
 
 The consistent patterns of covariate importance to predicting population density were observed between all sampled countries globally, with similar patterns observed between regions of countries. The correlates pertaining to urban areas and, more surprisingly, topographical features were the most important predictors of global values of where humans reside at all scales of analysis and were the only covariate categories which were consistently significantly more important than other categories.
 
