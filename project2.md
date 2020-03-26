@@ -5,15 +5,20 @@ This Projects Has 3 Parts:
 
 ## Part 1
 Extracting Land Use and Land Cover Data for Description
+
 This histogram is desired to show population distribution accross different adm2s. Since the numbers are very big, the log function is used to scale them according to the x-axis. 
 ![](project2_part1_hitogram.png)
-Notice that the density plot has a similar profile as the histogram.  We can compare the two by overlapping the histogram with the density plot or probability density function. 
+
+This plot shows density based on log of the population accross adm2. 
 ![](project2_part1_density.png)
-This plot merges both the density and histogram plots together for better estimation. 
+
+Notice that the density plot has a similar profile as the histogram.  We can compare the two by overlapping the histogram with the density plot or probability density function. 
 ![](project2_part1_density&histogram.png)
 
+This plot does a linear model estimation of night time lights based on where the population is distributed. 
 ![](project2_part1_ntl&pop19.png)
 
+This plot shows how density changes based on where night time lights all over Gabon's subdivisions. 
 ![](project2_part1_ntl.png)
 
 ![](project2_part1_all_together.png)
