@@ -24,13 +24,15 @@ This plot shows how density changes based on where night time lights all over Ga
 ![](project2_part1_all_together.png)
 ![](Error_with_text.png)
 
-## Part 2
+## Part 2: Modeling & Predicting Spatial Values
 #### Finding population and differences between our linear model and the actual WorldPop raster information
+Our model is serving to allocate population totals across all gridcells, but how accurate is it?  To start we can calculate the different of our predicted values - the worldpop values and sum the totals. Here are the plots that shows how different our model is different than the actual values from the Worldpop website. As obvious our model shows that on the western coast of Gabon, where its capital is located, the population distribution is extremely uneven. In fact, the capital subdivision has as many population as all subdivisions combined. 
 ![](project2_part2_diff.png)
 ![](project2_part2_diff_pop.png)
 
 
 ## Subsetting "Komo-Mondah" population and differences between our linear model estimation and the actual Data.
+Gabon's capital, Libreville, is located in Komo-Mondah subdivision. Since we don't have access directly to map Libreville, we will subste Komo-Mondah subdivision and plot its population distribution
 ![](project2_part2_Mondah_diff.png)
 ![](project2_part2_Mondah_pop.png)
 
@@ -44,6 +46,7 @@ This plot shows how density changes based on where night time lights all over Ga
 
 
 ## Subsetting "Mpassa" population and differences between our linear model estimation and the actual Data.
+Mpassa is Gabon's other populated subdivision. It is populated due to the Mpassa River running accross it. Historically, people tend to live close to waters. Since Gabon's economy relies on agriculture, most people prefer living near to waters. Below are plots for Mpassa's population distribution and the difference between our model estimation and the Worldpop data.
 ![](project2_part2_Mpassa_diff.png)
 ![](project2_part2_Mpassa_pop.png)
 
