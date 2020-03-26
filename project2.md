@@ -4,11 +4,12 @@
 This Projects Has 3 Parts:
 
 ## Part 1
-
+Extracting Land Use and Land Cover Data for Description
+This histogram is desired to show population distribution accross different adm2s. Since the numbers are very big, the log function is used to scale them according to the x-axis. 
 ![](project2_part1_hitogram.png)
-
+Notice that the density plot has a similar profile as the histogram.  We can compare the two by overlapping the histogram with the density plot or probability density function. 
 ![](project2_part1_density.png)
-
+This plot merges both the density and histogram plots together for better estimation. 
 ![](project2_part1_density&histogram.png)
 
 ![](project2_part1_ntl&pop19.png)
