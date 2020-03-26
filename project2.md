@@ -1,6 +1,7 @@
 # Project 2: Using Linear Modeling To Analyze Population Distribution
 ### Sayyed Hadi Razmjo
 
+This Projects Has 3 Parts:
 
 ## Part 1
 
