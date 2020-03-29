@@ -18,10 +18,13 @@ Notice that the density plot has a similar profile as the histogram.  We can com
 This plot does a linear model estimation of night time lights based on where the population is distributed. 
 ![](project2_part1_ntl&pop19.png)
 
-This plot shows how density changes based on where night time lights all over Gabon's subdivisions. 
+This plot shows how density changes based on where night time lights all over Gabon's subdivisions. This Residual model with regression line represents the correlation of night time lights, urban cover, and bare cover with Gabon’s population distribution.
+
 ![](project2_part1_ntl.png)
 
 ![](project2_part1_all_together.png)
+
+This plot highlights all the outliers including Komo-Mondah that is a striking outlier that is separated from the rest of the regression model and data.  
 ![](Error_with_text.png)
 
 ## Part 2: Modeling & Predicting Spatial Values
