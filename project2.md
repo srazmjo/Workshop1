@@ -41,6 +41,7 @@ Gabon's capital, Libreville, is located in Komo-Mondah subdivision. Since we don
 
 
 #### A 3-D plot representing population of Komo-Mondah
+This 3-D plot shows the population distribution over Komo-Mondah subdivision. The striking data shows that the population distribution on Libreville which is located in the heart of Komo-Mondah is extremely high compared to population distribution on other parts of Komo-Mondah. 
 ![](project2_part2_Mondah_3d_plot.PNG)
 
 
