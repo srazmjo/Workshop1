@@ -56,6 +56,7 @@ Mpassa is Gabon's other populated subdivision. It is populated due to the Mpassa
 
 
 #### A 3-D plot representing population of Mpassa
+This 3-D plot shows the population distribution over Mpassa subdivision. The striking data shows that the population distribution on Franceville which is located in the heart of Mpassa is extremely high compared to population distribution on other parts of Mpassa. 
 ![](project2_part2_Mpassa_3d_plot.PNG)
 
 
