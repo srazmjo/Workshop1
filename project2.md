@@ -64,3 +64,40 @@ This 3-D plot shows the population distribution over Mpassa subdivision. The str
 ![](project2_part2_Mpassa_mapview.png)
 
 
+
+## Part 3: Investigating and Comparing Results
+#### The original WorldPop population distribution raster
+![](project2_part3_actual_population_worldpop.png)
+
+
+#### Sums, Means, & Log
+We will use the lm() function to estimate three models.  First we will use pop19 as the response variable and the sum of each geospatial covariate per adm as the predictors.  Second, again use pop19 as the response variable but this time instead use the mean of each geospatial covariate per adm as the predictors.  Third, use the logarithm of 2019 population log(pop19) as the response and the mean of each geospatial covariate per adm as the predictors.
+
+
+#### Usings sums model
+A linear model is 
+![](project2_part3_population_sums.png)
+![](project2_part3_population_sums_diff.png)
+![](project2_part3_population_sums_3d.PNG)
+
+
+#### using means model
+
+![](project2_part3_population_means.png)
+![](project2_part3_population_means_diff.png)
+![](project2_part3_population_means_3d.PNG)
+
+
+
+#### using log model
+![](project2_part3_population_logpop.png)
+![](project2_part3_population_logpop_diff.png)
+![](project2_part3_population_logpop_3d.PNG)
+
+
+#### stretch goal for part 3
+![](project2_part3_strechgoal2.png)
+![](project2_part3_stretchgoal2_1.png)
+
+
+
