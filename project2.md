@@ -46,9 +46,13 @@ This plot shows the actual raster showing the original population distribution. 
 ![](project2_part3_actual_population_worldpop.png)
 
 The following plot shows the difference of our predicted values - the worldpop values and sum the totals.
+
 ![](project2_part2_diff.png)
+
 The following plot shows our population distribution prediction in Gabon. 
+
 ![](project2_part2_diff_pop.png)
+
 By looking at the diff plot and the above difference of predicted value from worldpop raster it appears that most of the error is slightly above or below 0, and is also distributed fairly evenly across the entire space.  Looking closely, however, the area close to the western coast and the central Gaon appears to exhibit a different phenomenon. In order to examine those areas closely, we will subset both areas individually to examine their population distribution based on our linear model. 
 
 
@@ -60,16 +64,20 @@ Gabon's capital, Libreville, is located in Komo-Mondah subdivision. Since we don
 
 #### A 3-D plot representing population of Komo-Mondah
 This 3-D plot shows the population distribution over Komo-Mondah subdivision. The striking data shows that the population distribution on Libreville which is located in the heart of Komo-Mondah is extremely high compared to population distribution on other parts of Komo-Mondah. This kind of result was expected given our knowledge of Libreville being the capital and and a trade center in Gabon. 
+
 ![](project2_part2_Mondah_3d_plot.PNG)
 
 
 #### A Mapview of Komo-Mondah
+
 ![](Project2_part2_Mondah_mapview.png)
 
 
 ## Subsetting "Mpassa" population and differences between our linear model estimation and the actual Data.
 Mpassa is Gabon's other populated subdivision. It is populated due to the Mpassa River running accross it. Historically, people tend to live close to waters. Since Gabon's economy relies on agriculture, most people prefer living near to waters. Below are plots for Mpassa's population distribution and the difference between our model estimation and the Worldpop data.
+
 ![](project2_part2_Mpassa_diff.png)
+
 ![](project2_part2_Mpassa_pop.png)
 
 
@@ -88,6 +96,7 @@ This 3-D plot shows the population distribution over Mpassa subdivision. The str
 
 #### The original WorldPop population distribution raster
 The original raster shows that the population is densely concentrated in Libreville, located in Komo-Mondah, a western coastal subdivision. Below is the original raster retrieved from WorldPop website. 
+
 ![](project2_part3_actual_population_worldpop.png)
 
 
