@@ -39,19 +39,27 @@ This plot highlights all the outliers including Komo-Mondah that is a striking o
 
 ## Part 2: Modeling & Predicting Spatial Values
 #### Finding population and differences between our linear model and the actual WorldPop raster information
+##### In this part, we will use the model parameters we previously estimated in order to predict spatial values across the landscape of Gabon. 
 Our model is serving to allocate population totals across all gridcells, but how accurate is it?  To start we can calculate the different of our predicted values - the worldpop values and sum the totals. Here are the plots that shows how different our model is different than the actual values from the Worldpop website. As obvious our model shows that on the western coast of Gabon, where its capital is located, the population distribution is extremely uneven. In fact, the capital subdivision has as many population as all subdivisions combined. 
+This plot shows the actual raster showing the original population distribution. This raster was retrieved from WorldPop website.
+
+![](project2_part3_actual_population_worldpop.png)
+
+The following plot shows the difference of our predicted values - the worldpop values and sum the totals.
 ![](project2_part2_diff.png)
+The following plot shows our population distribution prediction in Gabon. 
 ![](project2_part2_diff_pop.png)
+By looking at the diff plot and the above difference of predicted value from worldpop raster it appears that most of the error is slightly above or below 0, and is also distributed fairly evenly across the entire space.  Looking closely, however, the area close to the western coast and the central Gaon appears to exhibit a different phenomenon. In order to examine those areas closely, we will subset both areas individually to examine their population distribution based on our linear model. 
 
 
 ## Subsetting "Komo-Mondah" population and differences between our linear model estimation and the actual Data.
-Gabon's capital, Libreville, is located in Komo-Mondah subdivision. Since we don't have access directly to map Libreville, we will subste Komo-Mondah subdivision and plot its population distribution
+Gabon's capital, Libreville, is located in Komo-Mondah subdivision. Since we don't directly have access to Libreville map, we will subset Komo-Mondah subdivision and plot its population distribution. One of the reasons this subdivision is highly overpredicted is that it is densely populated. According to 2019 data, Gabon has an estimated population of 2.02 million people and based on estimations, half of the population live in or close to Libreville, given the fact that Libreville is a major business and trade center in Gabon. From the other hand, Komo-Mondah is a coastal city, having a lot of sea ports. The following plots show the population distribution difference between our model and the WorldPop raster. The population plot shows where in Komo-Mondah, the population is concentrated.
 ![](project2_part2_Mondah_diff.png)
 ![](project2_part2_Mondah_pop.png)
 
 
 #### A 3-D plot representing population of Komo-Mondah
-This 3-D plot shows the population distribution over Komo-Mondah subdivision. The striking data shows that the population distribution on Libreville which is located in the heart of Komo-Mondah is extremely high compared to population distribution on other parts of Komo-Mondah. 
+This 3-D plot shows the population distribution over Komo-Mondah subdivision. The striking data shows that the population distribution on Libreville which is located in the heart of Komo-Mondah is extremely high compared to population distribution on other parts of Komo-Mondah. This kind of result was expected given our knowledge of Libreville being the capital and and a trade center in Gabon. 
 ![](project2_part2_Mondah_3d_plot.PNG)
 
 
@@ -76,23 +84,26 @@ This 3-D plot shows the population distribution over Mpassa subdivision. The str
 
 
 ## Part 3: Investigating and Comparing Results
+###### In this part, we will use three appraoches to linear modeling and compare the results with each other to see which one produces the best results and outputs. 
+
 #### The original WorldPop population distribution raster
+The original raster shows that the population is densely concentrated in Libreville, located in Komo-Mondah, a western coastal subdivision. Below is the original raster retrieved from WorldPop website. 
 ![](project2_part3_actual_population_worldpop.png)
 
 
 #### Sums, Means, & Log
-We will use the lm() function to estimate three models.  First we will use pop19 as the response variable and the sum of each geospatial covariate per adm as the predictors.  Second, again use pop19 as the response variable but this time instead use the mean of each geospatial covariate per adm as the predictors.  Third, use the logarithm of 2019 population log(pop19) as the response and the mean of each geospatial covariate per adm as the predictors.
+We will use the lm() function to estimate three models.  First we will use pop19 as the response variable and the sum of each geospatial covariate per adm as the predictors.  Second, again use pop19 as the response variable but this time instead use the mean of each geospatial covariate per adm as the predictors.  Third, use the logarithm of 2019 population log(pop19) as the response and the mean of each geospatial covariate per adm as the predictors. To help ease distinguishing between our three approaches, we will use different names and lulc objects for sums, and means & logs models. 
 
 
 #### Usings sums model
-A linear model is 
+Below are the results when using the sums model. 
 ![](project2_part3_population_sums.png)
 ![](project2_part3_population_sums_diff.png)
 ![](project2_part3_population_sums_3d.PNG)
 
 
 #### using means model
-
+Below are the results when using the means model. 
 ![](project2_part3_population_means.png)
 ![](project2_part3_population_means_diff.png)
 ![](project2_part3_population_means_3d.PNG)
@@ -100,14 +111,21 @@ A linear model is
 
 
 #### using log model
+Below are the results when using the log model. 
 ![](project2_part3_population_logpop.png)
 ![](project2_part3_population_logpop_diff.png)
 ![](project2_part3_population_logpop_3d.PNG)
 
-
+#### Conclusion:
+All three approaches produced similar outpus, which indicates that in our case, all three approaches are highly accurate. This is the not case for other data types or models. In some cases, sums model can be a better modeling approach, while working with a different kind of data or model, the log model is a better modeling approach due to its ability to compact large data into smaller, readable, and usable data. 
 #### stretch goal for part 3
+In this part, we will estimate a random forest model using the same data we previously used.  We will use the mean values of all grid cells within each adm as the predictors (independent variable) and the log of population as the response (dependent variable). Starting by loading the World Pop raster, we will use the original WorldPop raster to validate our resuts at the end. After installing, unpacking the randomForest model, and using our adm2 to estimate and analyse our already existing data, we will produce two plots each showing the Number of trees needed before Out of Bag Error stabilized (first plot) and Two measures of importance for each of the predictor variables (second plot).
+
 ![](project2_part3_strechgoal2.png)
 ![](project2_part3_stretchgoal2_1.png)
 
 
+### End of this Project
+### By Sayyed Hadi Razmjo
+### W&M 2023
 
