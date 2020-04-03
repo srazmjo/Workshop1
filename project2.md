@@ -58,7 +58,9 @@ By looking at the diff plot and the above difference of predicted value from wor
 
 ## Subsetting "Komo-Mondah" population and differences between our linear model estimation and the actual Data.
 Gabon's capital, Libreville, is located in Komo-Mondah subdivision. Since we don't directly have access to Libreville map, we will subset Komo-Mondah subdivision and plot its population distribution. One of the reasons this subdivision is highly overpredicted is that it is densely populated. According to 2019 data, Gabon has an estimated population of 2.02 million people and based on estimations, half of the population live in or close to Libreville, given the fact that Libreville is a major business and trade center in Gabon. From the other hand, Komo-Mondah is a coastal city, having a lot of sea ports. The following plots show the population distribution difference between our model and the WorldPop raster. The population plot shows where in Komo-Mondah, the population is concentrated.
+
 ![](project2_part2_Mondah_diff.png)
+
 ![](project2_part2_Mondah_pop.png)
 
 
@@ -106,6 +108,7 @@ We will use the lm() function to estimate three models.  First we will use pop19
 
 #### Usings sums model
 Below are the results when using the sums model. 
+
 ![](project2_part3_population_sums.png)
 ![](project2_part3_population_sums_diff.png)
 ![](project2_part3_population_sums_3d.PNG)
@@ -113,6 +116,7 @@ Below are the results when using the sums model.
 
 #### using means model
 Below are the results when using the means model. 
+
 ![](project2_part3_population_means.png)
 ![](project2_part3_population_means_diff.png)
 ![](project2_part3_population_means_3d.PNG)
@@ -121,6 +125,7 @@ Below are the results when using the means model.
 
 #### using log model
 Below are the results when using the log model. 
+
 ![](project2_part3_population_logpop.png)
 ![](project2_part3_population_logpop_diff.png)
 ![](project2_part3_population_logpop_3d.PNG)
