@@ -1,26 +1,31 @@
 # Project 2: Using Linear Modeling To Analyze Population Distribution
 ### Sayyed Hadi Razmjo
 
-This Projects Has 3 Parts:
+This Projects Has 3 Parts (Part 3 is done as a Strecth Goal):
 
 ## Part 1
-Extracting Land Use and Land Cover Data for Description
+###### Extracting Land Use and Land Cover Data for Description
 
-This histogram is desired to show population distribution accross different adm2s. Since the numbers are very big, the log function is used to scale them according to the x-axis. 
+This histogram is desired to show population distribution accross different adm2s. In my adm2 sf object I now have 28 variables including the topo, ntl, and slope covariates.  To start with your description and analysis of the land use and land cover data, I first consider the pop19 variable  created in the last project.  Then, using ggplot(), I produce a histogram using the geom_histogram(). Since the numbers are very big, the log function is used to scale them according to the x-axis. Before using the log function, the numbers are so huge that they don't fit on the x-axis. The histogram is shown below:
+
 ![](project2_part1_hitogram.png)
 
-This plot shows density based on log of the population accross adm2. 
+This plot shows density based on log of the population accross adm2. We essentially do the same with the geom_density(), adding the log() command by wrapping the pop19 variable within it.
+
 ![](project2_part1_density.png)
 
-Notice that the density plot has a similar profile as the histogram.  We can compare the two by overlapping the histogram with the density plot or probability density function. 
+We can see that the density plot has a similar profile as the histogram.  We can compare the two by overlapping the histogram with the density plot. Essentially the area of the histogram and the density plot should be nearly the same, however there are some differences in values and that is why there are some peaks in the plot.
+ 
+
 ![](project2_part1_density&histogram.png)
 
-This plot does a linear model estimation of night time lights based on where the population is distributed. 
-![](project2_part1_ntl&pop19.png)
-
-This plot shows how density changes based on where night time lights all over Gabon's subdivisions. This Residual model with regression line represents the correlation of night time lights, urban cover, and bare cover with Gabon’s population distribution.
+We will use the same function but now estimate the population distribution using another covariate variable. This plot shows how density changes based on where night time lights all over Gabon's subdivisions. This Residual model with regression line represents the correlation of night time lights, urban cover, and bare cover with Gabon’s population distribution.
 
 ![](project2_part1_ntl.png)
+
+This plot does a linear model estimation of night time lights based on where the population is distributed. 
+
+![](project2_part1_ntl&pop19.png)
 
 ![](project2_part1_all_together.png)
 
