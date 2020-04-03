@@ -19,18 +19,23 @@ We can see that the density plot has a similar profile as the histogram.  We can
 
 ![](project2_part1_density&histogram.png)
 
-We will use the same function but now estimate the population distribution using another covariate variable. This plot shows how density changes based on where night time lights all over Gabon's subdivisions. This Residual model with regression line represents the correlation of night time lights, urban cover, and bare cover with Gabon’s population distribution.
+We will use the same function but now estimate the population distribution using another covariate variable. This plot shows how density changes based on where night time lights all over Gabon's subdivisions. This Residual model with regression line represents the correlation of night time lights, urban cover, and bare cover with Gabon’s population distribution. In this plot, the log function is not used. 
 
 ![](project2_part1_ntl.png)
 
-This plot does a linear model estimation of night time lights based on where the population is distributed. 
+Now that we have plotted different covariates with rapping pop19 around it, we will regress the data from two variables against each other and examine the coorelationship that is being described by the two variables.This plot does a linear model estimation of population distribution based on night time lights data gathered from online resources. 
 
 ![](project2_part1_ntl&pop19.png)
 
+ Now that we have enough knowledge of how to use different covariates to do estimations, we will add a few more variables to the lm() command. We can also add all the 12 covariates that we gathered from known online resources. For example in the following plot, I have estimated a regression model where the population of Gabon in 2019 is the dependent variable, while night time lights (ntl), urban cover (dst190), and bare cover (dst200), topo, slope, dst(010), dst(011), dst(130), dst(140), and other covariates are the independent variables (predictors).
+
 ![](project2_part1_all_together.png)
 
-This plot highlights all the outliers including Komo-Mondah that is a striking outlier that is separated from the rest of the regression model and data.  
+###### Stretch Goal:
+This plot highlights all the outliers including Komo-Mondah that is a striking outlier, separated from the rest of the regression model and data. The second plot will also present the F-statistics and R-adjusted Squared as we calculate residual standard error.
+
 ![](Error_with_text.png)
+![](project2_part1_stretch_goal_adjust.png)
 
 ## Part 2: Modeling & Predicting Spatial Values
 #### Finding population and differences between our linear model and the actual WorldPop raster information
