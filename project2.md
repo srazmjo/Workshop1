@@ -110,26 +110,27 @@ We will use the lm() function to estimate three models.  First we will use pop19
 #### Usings sums model
 Below are the results when using the sums model. 
 
-![](project2_part3_population_sums.png)
-![](project2_part3_population_sums_diff.png)
-![](project2_part3_population_sums_3d.PNG)
+![](project2_part2_population_sums_model.png)
+![](project2_part2_population_sums_model_difference.png)
+![](project2_part2_population_sums_model_3d.PNG)
 
 
 #### using means model
 Below are the results when using the means model. 
 
-![](project2_part3_population_means.png)
-![](project2_part3_population_means_diff.png)
-![](project2_part3_population_means_3d.PNG)
+![](project2_part2_population_means_model.png)
+![](project2_part2_population_means_model_difference.png)
+![](project2_part2_population_means_model_3d.PNG)
 
 
 
 #### using log model
 Below are the results when using the log model. 
 
-![](project2_part3_population_logpop.png)
-![](project2_part3_population_logpop_diff.png)
-![](project2_part3_population_logpop_3d.PNG)
+![](project2_part2_population_log_model.png)
+![](project2_part2_population_log_model_difference.png)
+![](project2_part2_population_log_model_3d.PNG)
+![](project2_part2_population_log_model_3d_1.PNG)
 
 #### Conclusion:
 All three approaches produced similar outpus, which indicates that in our case, all three approaches are highly accurate. This is the not case for other data types or models. In some cases, sums model can be a better modeling approach, while working with a different kind of data or model, the log model is a better modeling approach due to its ability to compact large data into smaller, readable, and usable data. 
