@@ -110,30 +110,37 @@ We will use the lm() function to estimate three models.  First we will use pop19
 #### Usings sums model
 Below are the results when using the sums model. 
 
+Population: Predictors - Sums:
 ![](project2_part2_population_sums_model.png)
+Difference: Predictors - Sums:
 ![](project2_part2_population_sums_model_difference.png)
+3D Difference: Predictors - Sums:
 ![](project2_part2_population_sums_model_3d.PNG)
 
 
 #### using means model
 Below are the results when using the means model. 
-
+Population: Predictors - means:
 ![](project2_part2_population_means_model.png)
+Difference: Predictors - means:
 ![](project2_part2_population_means_model_difference.png)
+3D Difference: Predictors - means:
 ![](project2_part2_population_means_model_3d.PNG)
 
 
 
 #### using log model
 Below are the results when using the log model. 
-
+Population: Predictors - Log:
 ![](project2_part2_population_log_model.png)
+Difference: Predictors - Log:
 ![](project2_part2_population_log_model_difference.png)
+3D Difference and Population: Predictors - Log:
 ![](project2_part2_population_log_model_3d.PNG)
 ![](project2_part2_population_log_model_3d_1.PNG)
 
 #### Conclusion:
-All three approaches produced similar outpus, which indicates that in our case, all three approaches are highly accurate. This is the not case for other data types or models. In some cases, sums model can be a better modeling approach, while working with a different kind of data or model, the log model is a better modeling approach due to its ability to compact large data into smaller, readable, and usable data. 
+All three approaches produced similar outpus, which indicates that in our case, all three approaches are highly accurate. However, among our approaches and in our data, the sums model produces the most accurate prediction and estimation. When comparing the difference of population distribution between the actual WorldPop raster and the sums model estimation, we can see that the sums model has the least over estimation and over prediction, which is a positive point about it. Therefore, we can conclude that our sums model has the best prediction here. This is the not case for other data types or models. In some cases, sums model can be a better modeling approach, while working with a different kind of data or model, the log model is a better modeling approach due to its ability to compact large data into smaller, readable, and usable data. 
 #### stretch goal for part 3
 In this part, we will estimate a random forest model using the same data we previously used.  We will use the mean values of all grid cells within each adm as the predictors (independent variable) and the log of population as the response (dependent variable). Starting by loading the World Pop raster, we will use the original WorldPop raster to validate our resuts at the end. After installing, unpacking the randomForest model, and using our adm2 to estimate and analyse our already existing data, we will produce two plots each showing the Number of trees needed before Out of Bag Error stabilized (first plot) and Two measures of importance for each of the predictor variables (second plot).
 
