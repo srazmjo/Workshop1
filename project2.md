@@ -6,7 +6,7 @@ This Projects Has 3 Parts (Part 3 is done as a Strecth Goal):
 ## Part 1
 ###### Extracting Land Use and Land Cover Data for Description
 
-This histogram is desired to show population distribution accross different adm2s. In my adm2 sf object I now have 28 variables including the topo, ntl, and slope covariates.  To start with your description and analysis of the land use and land cover data, I first consider the pop19 variable  created in the last project.  Then, using ggplot(), I produce a histogram using the geom_histogram(). Since the numbers are very big, the log function is used to scale them according to the x-axis. Before using the log function, the numbers are so huge that they don't fit on the x-axis. The histogram is shown below:
+This histogram is desired to show population distribution accross different adm2s. In my adm2 sf object I now have 28 variables including the topo, ntl, and slope covariates.  To start my description and analysis of the land use and land cover data, I first consider the pop19 variable  created in the last project.  Then, using ggplot(), I produce a histogram using the geom_histogram(). Since the numbers are very big, the log function is used to scale them according to the x-axis. Before using the log function, the numbers are so huge that they don't fit on the x-axis. The histogram is shown below:
 
 ![](project2_part1_hitogram.png)
 
@@ -19,7 +19,7 @@ We can see that the density plot has a similar profile as the histogram.  We can
 
 ![](project2_part1_density&histogram.png)
 
-We will use the same function but now estimate the population distribution using another covariate variable. This plot shows how density changes based on where night time lights all over Gabon's subdivisions. This Residual model with regression line represents the correlation of night time lights, urban cover, and bare cover with Gabon’s population distribution. In this plot, the log function is not used. 
+We will use the same function but now estimate the population distribution using another covariate variable. This plot shows how density changes based on night time lights all over Gabon's subdivisions. This Residual model with regression line represents the correlation of night time lights, urban cover, and bare cover with Gabon’s population distribution. In this plot, the log function is not used. 
 
 ![](project2_part1_ntl.png)
 
@@ -27,7 +27,7 @@ Now that we have plotted different covariates with rapping pop19 around it, we w
 
 ![](project2_part1_ntl&pop19.png)
 
- Now that we have enough knowledge of how to use different covariates to do estimations, we will add a few more variables to the lm() command. We can also add all the 12 covariates that we gathered from known online resources. For example in the following plot, I have estimated a regression model where the population of Gabon in 2019 is the dependent variable, while night time lights (ntl), urban cover (dst190), and bare cover (dst200), topo, slope, dst(010), dst(011), dst(130), dst(140), and other covariates are the independent variables (predictors).
+Now that we have enough knowledge of how to use different covariates to do estimations, we will add a few more variables to the lm() command. We can also add all the 12 covariates that we gathered from known online resources. For example in the following plot, I have estimated a regression model where the population of Gabon in 2019 is the dependent variable, while night time lights (ntl), urban cover (dst190), and bare cover (dst200), topo, slope, dst(010), dst(011), dst(130), dst(140), and other covariates are the independent variables (predictors).
 
 ![](project2_part1_all_together.png)
 
@@ -40,7 +40,7 @@ This plot highlights all the outliers including Komo-Mondah that is a striking o
 ## Part 2: Modeling & Predicting Spatial Values
 #### Finding population and differences between our linear model and the actual WorldPop raster information
 ##### In this part, we will use the model parameters we previously estimated in order to predict spatial values across the landscape of Gabon. 
-Our model is serving to allocate population totals across all gridcells, but how accurate is it?  To start we can calculate the different of our predicted values - the worldpop values and sum the totals. Here are the plots that shows how different our model is different than the actual values from the Worldpop website. As obvious our model shows that on the western coast of Gabon, where its capital is located, the population distribution is extremely uneven. In fact, the capital subdivision has as many population as all subdivisions combined. 
+Our model is serving to allocate population totals across all gridcells, but how accurate is it? Let's find it. To start, we can calculate the difference of our predicted values - the worldpop values and sum the totals. Here are the plots that shows how different our model is different than the actual values from the Worldpop website. As obvious our model shows that on the western coast of Gabon, where its capital is located, the population distribution is extremely uneven. In fact, the capital subdivision has as many population as all subdivisions combined. 
 This plot shows the actual raster showing the original population distribution. This raster was retrieved from WorldPop website.
 
 ![](project2_part3_actual_population_worldpop.png)
@@ -53,11 +53,11 @@ The following plot shows our population distribution prediction in Gabon.
 
 ![](project2_part2_diff_pop.png)
 
-By looking at the diff plot and the above difference of predicted value from worldpop raster it appears that most of the error is slightly above or below 0, and is also distributed fairly evenly across the entire space.  Looking closely, however, the area close to the western coast and the central Gaon appears to exhibit a different phenomenon. In order to examine those areas closely, we will subset both areas individually to examine their population distribution based on our linear model. 
+By looking at the diff plot and the above difference of predicted value from worldpop raster it appears that most of the error is slightly above or below 0, and is also distributed fairly evenly across the entire space.  Looking closely, however, the area close to the western coast and the central Gabon appears to exhibit a different phenomenon. In order to examine those areas closely, we will subset both areas individually to examine their population distribution and calculate the error based on our linear model. 
 
 
 ## Subsetting "Komo-Mondah" population and differences between our linear model estimation and the actual Data.
-Gabon's capital, Libreville, is located in Komo-Mondah subdivision. Since we don't directly have access to Libreville map, we will subset Komo-Mondah subdivision and plot its population distribution. One of the reasons this subdivision is highly overpredicted is that it is densely populated. According to 2019 data, Gabon has an estimated population of 2.02 million people and based on estimations, half of the population live in or close to Libreville, given the fact that Libreville is a major business and trade center in Gabon. From the other hand, Komo-Mondah is a coastal city, having a lot of sea ports. The following plots show the population distribution difference between our model and the WorldPop raster. The population plot shows where in Komo-Mondah, the population is concentrated.
+Gabon's capital, Libreville, is located in Komo-Mondah subdivision. Since we don't directly have access to Libreville map, we will subset Komo-Mondah subdivision and plot its population distribution. One of the reasons this subdivision is highly overpredicted is that it is densely populated. According to 2019 data, Gabon has an estimated population of 2.02 million people and based on estimations, half of the population live in or close to Libreville, given the fact that Libreville is a major business and trade center in Gabon. From the other hand, Komo-Mondah is a coastal city, having a lot of sea ports, encouraging people to move to this province for trading and other job opportunities. The following plots show the population distribution difference between our model and the WorldPop raster. The population plot shows where in Komo-Mondah, the population is concentrated.
 
 ![](project2_part2_Mondah_diff.png)
 
@@ -65,7 +65,7 @@ Gabon's capital, Libreville, is located in Komo-Mondah subdivision. Since we don
 
 
 #### A 3-D plot representing population of Komo-Mondah
-This 3-D plot shows the population distribution over Komo-Mondah subdivision. The striking data shows that the population distribution on Libreville which is located in the heart of Komo-Mondah is extremely high compared to population distribution on other parts of Komo-Mondah. This kind of result was expected given our knowledge of Libreville being the capital and and a trade center in Gabon. 
+This 3-D plot shows the population distribution over Komo-Mondah subdivision. The striking data shows that the error of our model for population distribution on Libreville which is located in the heart of Komo-Mondah is extremely high compared to population distribution on other parts of Komo-Mondah. This kind of result was expected given our knowledge of Libreville being the capital and and a trade center in Gabon. 
 
 ![](project2_part2_Mondah_3d_plot.PNG)
 
@@ -76,7 +76,7 @@ This 3-D plot shows the population distribution over Komo-Mondah subdivision. Th
 
 
 ## Subsetting "Mpassa" population and differences between our linear model estimation and the actual Data.
-Mpassa is Gabon's other populated subdivision. It is populated due to the Mpassa River running accross it. Historically, people tend to live close to waters. Since Gabon's economy relies on agriculture, most people prefer living near to waters. Below are plots for Mpassa's population distribution and the difference between our model estimation and the Worldpop data.
+Mpassa is Gabon's other populated subdivision. It is populated due to the Mpassa River running accross it. Historically, people tend to live close to waters. Since Gabon's economy relies on agriculture, most people prefer living near to waters. Below are plots for Mpassa's population distribution and the difference between our model estimation and the Worldpop data. It appears that the most overestimation is done in populated areas. 
 
 ![](project2_part2_Mpassa_diff.png)
 
@@ -84,7 +84,7 @@ Mpassa is Gabon's other populated subdivision. It is populated due to the Mpassa
 
 
 #### A 3-D plot representing population of Mpassa
-This 3-D plot shows the population distribution over Mpassa subdivision. The striking data shows that the population distribution on Franceville which is located in the heart of Mpassa is extremely high compared to population distribution on other parts of Mpassa. 
+This 3-D plot shows the population distribution over Mpassa subdivision. The striking data shows that the population distribution on Franceville which is located in the heart of Mpassa is extremely high compared to population distribution on other parts of Mpassa. Also those areas are overpredicted in our model compared to the orginial raster data. 
 
 ![](project2_part2_Mpassa_3d_plot.PNG)
 
