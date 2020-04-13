@@ -20,17 +20,30 @@ Contour lines added:
 
 ![](Leyou_5_contours.png)
 
+Urbanized areas across Léboumbi-Leyou:
+
 ![](Leyou_6_urban_areas.png)
+
+Density Dots added to the Urbanized Areas:
 
 ![](Leyou_7_urbanized_areas_with_Dots.png)
 
+
 ![](leyou_8_urban_areas_polys.png)
+
+Road Networks across Léboumbi-Leyou:
 
 ![](leyou_9_urban_areas_with_roads.png)
 
+Road Networks and density shown together:
+
 ![](leyou_10_urban_areas_roads_density.png)
 
+Healthcare sites across Léboumbi-Leyou:
+
 ![](leyou_11_hospital_sites.png)
+
+And finally putting all Road networks, healthsites, and density together:
 
 ![](leyou_12_hospitals_roads.png)
 
