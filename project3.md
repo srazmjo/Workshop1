@@ -2,11 +2,16 @@
 
 De facto description of human settlements and urban areas
 
-![](Leyou_pop19.png)
-![](Leyou_pop_points.png)
-![](Leyou_density_image.png)
-![](multiline_obj.png)
-![](new_contour.png)
-![](urban_areas_Leyou.png)
-![](Leyou_pop19_all_polys.png)
-![](Leyou_urban_areas_with_points.png)
+![](Leyou_1.png)
+![](Leyou_2.png)
+![](Leyou_3_density.png)
+![](Leyou_4_multiline_obj.png)
+![](Leyou_5_contours.png)
+![](Leyou_6_urban_areas.png)
+![](Leyou_7_urbanized_areas_with_Dots.png)
+![](leyou_8_urban_areas_polys.png)
+![](leyou_9_urban_areas_with_roads.png)
+![](leyou_10_urban_areas_roads_density.png)
+![](leyou_11_hospital_sites.png)
+![](leyou_12_hospitals_roads.png)
+
