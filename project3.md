@@ -15,3 +15,21 @@ De facto description of human settlements and urban areas
 ![](leyou_11_hospital_sites.png)
 ![](leyou_12_hospitals_roads.png)
 
+
+
+
+Strech Goal 1 Part one and Part two together
+
+![](both_1_pop19.png)
+![](both_2_pop_points.png)
+![](both_3_density.png)
+![](both_4_contour.png)
+![](both_5_dsg_conts.png)
+![](both_6_urban_areas.png)
+![](Both_7_urban_areas_with_points.png)
+![](both_8_pop19_all_polys.png)
+![](both_9_urban_areas_with_roads.png)
+![](both_10_healthsites.png)
+![](both_11_urban_areas_roads_hospitals_roads.png)
+
+
