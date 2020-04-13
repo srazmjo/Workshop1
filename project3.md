@@ -52,14 +52,19 @@ And finally putting all Road networks, healthsites, and density together:
 ## Strech Goal 1 Part one and Part two together
 #### After Combining two neighbor subdivisions each being "Ntem" and "Woleu", we will find its combined population, point per person, combined density, combined road networks, and combined healthsites across both Ntem and Woleu. 
 
+Combined population distribution across Ntem and Woleu:
+
 ![](both_1_pop19.png)
 
 ![](both_2_pop_points.png)
 
 ![](both_3_density.png)
 
+Contour lines to be added:
+
 ![](both_4_contour.png)
 
+Contour lines added:
 ![](both_5_dsg_conts.png)
 
 ![](both_6_urban_areas.png)
@@ -69,6 +74,8 @@ And finally putting all Road networks, healthsites, and density together:
 ![](both_8_pop19_all_polys.png)
 
 ![](both_9_urban_areas_with_roads.png)
+
+Healthsites across Ntem and Woleu together:
 
 ![](both_10_healthsites.png)
 
