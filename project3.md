@@ -7,7 +7,7 @@
 Below you can find the Population per grid cell distribution across Léboumbi-Leyou. As it appears, there are three main urbanzied areas in the center and north. The western part of Léboumbi-Leyou appears to be uninhabited with near to 0 population per grid cell. The reason that population is densely populated on the eastern part is that Léboumbi-Leyou is located on the west of Mpassa, a major business and trade center. Léboumbi-Leyou has a total population of 161099 based on the 2019 population raster downloaded from the WorldPop database. 
 ![](Leyou_1.png)
 
-The following plot is one instance from a probability model (based on 2019 WorldPop data) used to distribute all 161,099 persons geospatially throughout Léboumbi-Leyou. Every point on this plot represents a person inhabiting Léboumbi-Leyou. As expected, this plot reinforces our population distribution plot shown before. There are three densely populated places while the western and norheastern parts are mostly uninhabited.
+The following plot is one instance from a probability model (based on 2019 WorldPop data) used to distribute all 161,099 persons geospatially throughout Léboumbi-Leyou. Every point on this plot represents a person inhabiting Léboumbi-Leyou. As expected, this plot reinforces our population distribution plot shown before. There are three densely populated places while the western and northeastern parts are mostly uninhabited.
 ![](Leyou_2.png)
 
 Based on our population distribution model and the point per person plot, we plot a density map showing where in Léboumbi-Leyou are highly populated and where is uninhabited. Same as our previous observations, the western part seems mostly blue - meaning that it is not populated, while the central part of Léboumbi-Leyou is red - meaning that it has a higher density compared to other parts of Léboumbi-Leyou. 
@@ -40,11 +40,11 @@ Road Networks and density shown together:
 
 ![](leyou_10_urban_areas_roads_density.png)
 
-Healthcare sites across Léboumbi-Leyou: Once again, the only two healthsites in Léboumbi-Leyou are located in one of our polygons and specifically right next to our density point (shown in the next plot as blue dots). Healthcare sites are located close to highly populated areas to ensure that people can easily access to healthcare. 
+Healthcare sites across Léboumbi-Leyou: Once again, the only two healthsites in Léboumbi-Leyou are located in one of our polygons and specifically right next to our density point (shown in the next plot as blue dots). Healthcare sites are located close to highly populated areas to ensure that people can easily access to healthcare. There is no available healthsites in other identified urbanized areas. The reason behind that is that Gabon is still a third-world country and access to healthcare is extremely limited even in the most populated and urbanized places. As of 2004 data, there were an estimated 29 physicians per 100,000 people. That number hasn't significantly changed until now. 
 
 ![](leyou_11_hospital_sites.png)
 
-And finally putting all Road networks, healthsites, and density together: 
+And finally putting all Road networks, healthsites, and density together: We can see that both transportation networks and healthcare sites are located close to our identified urbanized areas. One may conclude that there is a strong correlation between the location of healthsites & transportation routes and the relative population of the area. 
 
 ![](leyou_12_hospitals_roads.png)
 
