@@ -81,6 +81,6 @@ Healthsites across Ntem and Woleu together:
 
 Healthsites, Road Networks, and density all together:
 
-![](both_11_urban_areas_roads_hospitals_roads (2).png)
+![](both_11_urban_areas_roads_hospitals_roads.png)
 
 
