@@ -17,15 +17,19 @@ We will use contour Lines to distinguish highly populated places from relatively
 ![](Leyou_4_multiline_obj.png)
 
 Contour lines added:
+
 ![](Leyou_5_contours.png)
 
 Urbanized areas across Léboumbi-Leyou: Using our density model and the contour lines we created, now we have all the tools to find and distinguish our de facto human settlements and urban areas. Below you will see the urbanized areas shown as ploygons in lightblue and non-urbanized areas in gold/gray. 
+
 ![](Leyou_6_urban_areas.png)
 
 Density Dots added to the Urbanized Areas: To show how dense each polygon is, we will add some density dots to it. The bigger the dots, the more population that area has. The color represents the actual density in that area. 
+
 ![](Leyou_7_urbanized_areas_with_Dots.png)
 
 Now We will add the polygons to our population distribution plot to ensure that our findings are consistent with our initial assumptions. 
+
 ![](leyou_8_urban_areas_polys.png)
 
 Road Networks across Léboumbi-Leyou: This activity is part of the part 2 of the project, where we will add road networks and healthsites to our plot that shows the urbanized areas. The data was downloaded from the HDX website under HOTOSM Gabon Roads (OpenStreetMap Export). Some other databases were also visited, such as the DIVA-GIS. However, after using data from both sources, the data from the HDX website produced more up-to-date and accurate results. Below you can find the road networks that run across Léboumbi-Leyou. The orange line shows the primary asphalt road that runs across Léboumbi-Leyou. As it appears, the primary asphalt road runs across the three polygons that we marked as urban areas. The line and pink line are showing the secondary and tertiary routes, respectively. Both lines are starting from the dense point we previously plotted, showing that the location of all primary, secondary, and tertiary routes are consistent with our findings. Roads, railroads, trails and other means of transportation are primarily located close to urbanized and highly populated areas. 
