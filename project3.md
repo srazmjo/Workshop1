@@ -73,12 +73,14 @@ Contour lines added:
 
 ![](both_8_pop19_all_polys.png)
 
-![](t.png)
+![](both_9_urban_areas_with_roads.png)
 
 Healthsites across Ntem and Woleu together:
 
 ![](both_10_healthsites.png)
 
-![](both_11_urban_areas_roads_hospitals_roads.png)
+Healthsites, Road Networks, and density all together:
+
+![](both_11_urban_areas_roads_hospitals_roads (2).png)
 
 
