@@ -73,7 +73,7 @@ Contour lines added:
 
 ![](both_8_pop19_all_polys.png)
 
-![](both_9_urban_areas_with_roads.png)
+![](t.png)
 
 Healthsites across Ntem and Woleu together:
 
