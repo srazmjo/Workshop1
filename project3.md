@@ -1,4 +1,4 @@
-# Project 3 
+# Project 3 - Gabon
 
 ## Part 1 : De facto description of human settlements and urban areas
 
@@ -51,27 +51,33 @@ And finally putting all Road networks, healthsites, and density together: We can
 
 
 ## Strech Goal 1 Part one and Part two together
-#### After Combining two neighbor subdivisions each being "Ntem" and "Woleu", we will find its combined population, point per person, combined density, combined road networks, and combined healthsites across both Ntem and Woleu. 
+#### After Combining two neighbor subdivisions "Ntem" and "Woleu", we will find its combined population, population distribution, point per person population distribution, combined density, combined urbanized areas, combined density points, combined road networks, and combined healthsites. 
 
-Combined population distribution across Ntem and Woleu:
+Combined population distribution across Ntem and Woleu: After unioning both simple feature collections (Ntem and Woleu), we will be able to crop it based on our WorldPop population data. After cropping, the population of combined subdivison is found to be 232085 persons. We will follow the same steps as we did previously in part one to produce a point per person plot for our combined adm2s. Both the population distribution and point per person plots are shown below:
 
 ![](both_1_pop19.png)
 
 ![](both_2_pop_points.png)
 
+To produce a density plot, first I calculated the bandwidth for the combined adm2s. The BW function for this specific combined adm2s took 4.5 hours to load making the BW step computationally intense. After running the BW, we will be able to produce the density plot. In order to produce a density plot, we will use the same object that we created for plotting the point per person plot. However, we will use the result of the BW as our sigma. Below you can find the density plot for Ntem and Woleu. 
+
 ![](both_3_density.png)
 
-Contour lines to be added:
+Contour lines to be added to the density plot:
 
 ![](both_4_contour.png)
 
-Contour lines added:
+Contour lines added to the density plot:
+
 ![](both_5_dsg_conts.png)
 
+Using our density plot containing the contour lines, we will create some polygons that represent the urbanized areas. The produced polygons will have the most density based on our selected number of levels across both Ntem and Woleu. Below the urbanized areas are shown in lightblue and non-urbanized areas are shown in lightgold/gray. Since Ntem is a coastal city, it appears that people of Ntem has populated the western coast while leaving the eastern part uninhibited. 
 ![](both_6_urban_areas.png)
 
+We will add some dots representing the density to our urbanized areas to show their actual density and population using a range of color. 
 ![](Both_7_urban_areas_with_points.png)
 
+polygons showing the urbanized areas are added to our population distribution plot to ensure that the identified areas are really showing highly and densely populated areas. 
 ![](both_8_pop19_all_polys.png)
 
 ![](both_9_urban_areas_with_roads.png)
