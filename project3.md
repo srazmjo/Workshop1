@@ -72,17 +72,19 @@ Contour lines added to the density plot:
 ![](both_5_dsg_conts.png)
 
 Using our density plot containing the contour lines, we will create some polygons that represent the urbanized areas. The produced polygons will have the most density based on our selected number of levels across both Ntem and Woleu. Below the urbanized areas are shown in lightblue and non-urbanized areas are shown in lightgold/gray. Since Ntem is a coastal city, it appears that people of Ntem has populated the western coast while leaving the eastern part uninhibited. 
+
 ![](both_6_urban_areas.png)
 
-We will add some dots representing the density to our urbanized areas to show their actual density and population using a range of color. 
+We will add some points (representing the density) to our urbanized areas to show their actual density and population using a range of color. 
 ![](Both_7_urban_areas_with_points.png)
 
-polygons showing the urbanized areas are added to our population distribution plot to ensure that the identified areas are really showing highly and densely populated areas. 
+polygons showing the urbanized areas are added to our population distribution plot to ensure that the identified areas are really showing highly dense and populated areas. 
 ![](both_8_pop19_all_polys.png)
 
+Using the HDX website database, the Gabon's road network shp files are downloaded. After cropping the shp file specifically based on our combined adm2s, The primary and secondary road routes are dintinguished. In the following plot, the orange lines are showing the primary road routes and the blue lines are showing the secondary road networks. Two conclusions can be made: first, the primary road routes are crossing the identified urbanized areas. Second, the roadways are specifically running through our identified density points, showing that roadways are primarily built close to where the density is the most.
 ![](both_9_urban_areas_with_roads.png)
 
-Healthsites across Ntem and Woleu together:
+Healthsites across Ntem and Woleu together: Using the HDX data, there is only two healthcare facilities across our combined adm2s. One is located in the Ntem subdivison and one is located in the heart of Woleu. Both are coastal subdivisons and highly populated areas in the western part. Although not enough to provide healthcare for all the people living in those adm2s, both healthsites are carefully built and located. Both healthsites are located at the heart of each subdivison, ensuring the centrality of the healthsite. 
 
 ![](both_10_healthsites.png)
 
