@@ -41,6 +41,7 @@ Road Networks and density shown together:
 ![](leyou_10_urban_areas_roads_density.png)
 
 Healthcare sites across Léboumbi-Leyou: Once again, the only two healthsites in Léboumbi-Leyou are located in one of our polygons and specifically right next to our density point (shown in the next plot as blue dots). Healthcare sites are located close to highly populated areas to ensure that people can easily access to healthcare. There is no available healthsites in other identified urbanized areas. The reason behind that is that Gabon is still a third-world country and access to healthcare is extremely limited even in the most populated and urbanized places. As of 2004 data, there were an estimated 29 physicians per 100,000 people and that number hasn't significantly changed until now. There is definitely insufficient number of healthsites to provide healthcare for all 161000 population of Léboumbi-Leyou. There is no absolutely no healthcare facility in the western half of the subdivision, near the southern border, or in the northern half of the subdivision, making it extremely hard for people to get enough healthcare. 
+The red dots represent the location of the healthsites. 
 
 ![](leyou_11_hospital_sites.png)
 
@@ -88,7 +89,7 @@ Healthsites across Ntem and Woleu together: Using the HDX data, there is only tw
 
 ![](both_10_healthsites.png)
 
-Healthsites, Road Networks, and density all together:
+Healthsites, Road Networks, and density all together: The green dots represent the location of the healthsites. 
 
 ![](both_11_urban_areas_roads_hospitals_roads.png)
 
