@@ -1,5 +1,7 @@
 # Project 3 - Gabon
 
+#### The written statements -regarding the deliverable questions- are included along the file with their specific plots. 
+
 ## Part 1 : De facto description of human settlements and urban areas
 
 #### In this part, one adm2 subdivision called "Léboumbi-Leyou" is selected. The individual strech goal and part 2 are also done for this single subdivison. Later in this deliverable, I will combine two other subdivisons and perform part 2 on it as well. Below are 12 plots showing Léboumbi-Leyou population distribution, point per person on the map, population density, contour lines, urbanized areas, road networks, and healthsites across Léboumbi-Leyou. 
