@@ -53,7 +53,9 @@ And finally putting all Road networks, healthsites, and density together: We can
 
 
 
-## Strech Goal 1 Part one and Part two together
+
+## Part two: Adding Road Networks and Healthsites to our de facto population representation:
+### The activities in part 1 are also done for these combined subdivisions. 
 #### After Combining two neighbor subdivisions "Ntem" and "Woleu", we will find its combined population, population distribution, point per person population distribution, combined density, combined urbanized areas, combined density points, combined road networks, and combined healthsites. 
 
 Combined population distribution across Ntem and Woleu: After unioning both simple feature collections (Ntem and Woleu), we will be able to crop it based on our WorldPop population data. After cropping, the population of combined subdivison is found to be 232085 persons. We will follow the same steps as we did previously in part one to produce a point per person plot for our combined adm2s. Both the population distribution and point per person plots are shown below:
@@ -96,3 +98,6 @@ Healthsites, Road Networks, and density all together: The green dots represent t
 ![](both_11_urban_areas_roads_hospitals_roads.png)
 
 
+
+### By Sayyed Hadi Razmjo
+### W&M 2023
