@@ -26,8 +26,11 @@ We should import the urban areas polygons from project 3 to add it to our 3-D pl
 
 ![](5_only_borders_with_urban_areas.png)
 
+Next up, the urban areas along with the dotted boundaries are added to the 3-D plot. Below the urban areas are shown on our topographic 3-D plot:
+
 ![](6_urban_areas.png)
 
+Using the HDX's Gabon Road database, the shp data files are downloaded, or alternatively we can use the data objects used in project 3. The road networks across Ntem and Woleu are added to our 3-D plot showing the urban areas as well. 
 ![](8_roads_urban_areas.png)
 
 ![](7_urban_areas_healthsites.png)
