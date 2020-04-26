@@ -1,5 +1,6 @@
 # Wicked Problems- Spring 2020 
-Sayyed Hadi Razmjo
+By Sayyed Hadi Razmjo
+W&M 2023
 
 ## Workshop
 1. [Challenge Question](https://srazmjo.github.io/Workshop1/Challenge_question.png)
