@@ -87,3 +87,33 @@ However, after subsetting Mpassa and investigating its population distribution, 
 To get a better visualization, consider the following mapview of Mpassa:
 
 ![](project2_part2_Mpassa_mapview.png)
+
+
+
+## De facto description of human settlements and urban areas:
+To further analyze population distribution, population density, human settlements, urban areas, transportation routes, and healthcare facilities, we will pick two different adm2s and combine them to help us do a better analysis using a compare and contrast approach. 
+
+For this purpose, I chose Ntem and Woleu, Gabon's two northern most first level subdivisions. After unioning both simple feature collections (Ntem and Woleu), we will be able to crop it based on our WorldPop population data to find population distribution across both subdivisions. After cropping, the population of combined subdivison is found to be 232085 persons. We will follow the same steps as we did previously in part one to produce a point per person plot for our combined adm2s. Both the population distribution and point per person plots are shown below:
+
+![](both_1_pop19.png)
+
+![](both_2_pop_points.png)
+
+To produce a density plot, first I calculated the bandwidth for the combined adm2s. The BW function for this specific combined adm2s took 4.5 hours to load making the BW step computationally intense. After running the BW, we will be able to produce the density plot. In order to produce a density plot, we will use the same object that we created for plotting the point per person plot. However, we will use the result of the BW as our sigma. Below you can find the density plot for Ntem and Woleu. 
+
+![](both_3_density.png)
+
+Using our density plot containing the contour lines, we will create some polygons that represent the urbanized areas across our combined adm2s. The produced polygons will have the most density based on our selected number of levels across both Ntem and Woleu. Below the urbanized areas are shown in lightblue and non-urbanized areas are shown in lightgold/gray. Since Ntem is a coastal city, it appears that people of Ntem has populated the western coast while leaving the eastern part uninhibited. We will also add some points (representing the density) to our urbanized areas to show their actual density.
+
+![](Both_7_urban_areas_with_points.png)
+
+Matching our results with our initial population distribution map confirms that the identified urban areas have the highest population and density:
+
+![](both_8_pop19_all_polys.png)
+
+#### We can also add road networks and healthcare facilities to analyze the relationship between the location of the identified urban areas and transportation routes and healthcare facilities. 
+In the following plot, the orange lines are showing the primary road routes and the blue lines are showing the secondary road networks. Two conclusions can be made: first, the primary road routes are crossing the identified urbanized areas. Second, the roadways are specifically running through our identified density points, showing that roadways are primarily built close to where the density is the most. Given the fact that both Ntem and Woleu are both coastal cities with a lot tourists, there seems to be enough number of transportation routes across both adm2s. The transportation routes joins major urbanized areas with relatively less populated areas and other parts of the subdivision. From the other hand, all healthsites are located at the heart of each subdivison, ensuring the centrality of the healthsite. Though only two healthcare sites can be seen in the whole region, both healthcare sites are located in the heart of our identified urban areas to ensure that major human settlements have adequate access to healthcare. 
+
+![](both_11_urban_areas_roads_hospitals_roads.png)
+
+
