@@ -54,10 +54,11 @@ In the following geometric bar, you can find out how each subdivision accounts f
 
 ![](project_1_part3_Ordered_filled_geom_bar.png)
 
-#### Population Density in Gabon's each first subdivisions (province):
+#### Population Density in Gabon's each first subdivision (province):
 
 ![](project_1_part3_population_map_with_density.png)
 
-#### Population density in Gabon's each second subdivisions (districts):
-This geometric bar shows the population distribution over Gabon's districts. 
-[](project_1_part3_stretch_goal_1.png) 
+#### Population Density in Gabon's each second subdivision (districts): 
+This geometric bar shows the population distribution over Gabon's districts. The density of Komo-Mondah district, located in capital Liberville, Estuaire, simply outweighs almost 7 other provinces based on its density. This single district is denser than all other 7 provinces. It is almost twice as denser as Haut-Ogoouie province, one of the most important provinces in Gabon.
+
+![](project_1_part3_stretch_goal_1.png) 
