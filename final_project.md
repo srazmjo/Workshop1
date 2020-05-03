@@ -62,3 +62,28 @@ In the following geometric bar, you can find out how each subdivision accounts f
 This geometric bar shows the population distribution over Gabon's districts. The density of Komo-Mondah district, located in capital Liberville, Estuaire, simply outweighs almost 7 other provinces based on its density. This single district is denser than all other 7 provinces. It is almost twice as denser as Haut-Ogoouie province, one of the most important provinces in Gabon.
 
 ![](project_1_part3_stretch_goal_1.png) 
+
+#### Using Linear Modeling To Analyze Population Distribution
+
+The histogram below is desired to show population distribution accross different adm2s. In my adm2 sf object I now have 28 variables including the topo, ntl, and slope covariates. To start my description and analysis of the land use and land cover data, I first consider the pop19 variable created in the last project.
+
+![](project2_part1_hitogram.png)
+
+This plot shows density based on log of the population accross adm2. 
+
+![](project2_part1_density.png)
+
+Now that we have plotted different covariates with wrapping pop19 around it, we will regress the data from multiple variables against each other and examine the correlationship that is being described by the variables. For example, in the following plot, I have estimated a regression model where the population of Gabon in 2019 is the dependent variable, while night time lights (ntl), urban cover (dst190), and bare cover (dst200), topo, slope, dst(010), dst(011), dst(130), dst(140), and other covariates are the independent variables (predictors). This plot highlights all the outliers including Komo-Mondah that is a striking outlier, separated from the rest of the regression model and data. We will also calculate F-statistics and R-adjusted Squared for the linear model. The plot below does a linear model estimation of population distribution based on night time lights data gathered from online resources. 
+
+![](project2_part1_stretch_goal_adjust.png)
+
+#### Let's subset Mpassa and explore differences between our linear model estimation and the actual Data from the WorldPop website.
+This original raster object downloaded from the WorldPop website shows the original population distribution:
+![](project2_part3_actual_population_worldpop.png)
+However, after subsetting Mpassa and investigating its population distribution, I found out that my linear model actually overpredicts Mpassa's population distribution in some areas. The following 3-D plot shows the striking overprediction in the central areas of Mpassa, Francesville: 
+
+![](project2_part2_Mpassa_3d_plot.PNG)
+
+To get a better visualization, consider the following mapview of Mpassa:
+
+![](project2_part2_Mpassa_mapview.png)
