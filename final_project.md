@@ -20,7 +20,7 @@ population of 2.1 million people. Gabon has 9 provinces which are then divided i
 
 Let's explore Gabon's Eastern provinces:
 
-#### Nyanga County with two other Eastern Gabon States
+#### Nyanga County with two other Eastern Gabon Provinces
 Nyanga is the southernmost of Gabon's nine provinces. The provincial capital is Tchibanga, which had a total of 31294 inhabitants in 2013. Nyanga is the least populated province of the nine and one of the least developed despite being the southern coast of Gabon with sea ports and trade routes. The Atlantic ocean is located on the western side of Nyanga, making it an strategically important province. Nyanga is divided into 3 districts: Douigny, Basse Banio, and Nauti Banio which is then divided into 6 other sub-departments.
 
 The Ogooué-Lolo Province is one of the nine provinces of Gabon, slightly southeast of central Gabon. It has a total area of 9,800 sq mi. The regional capital is Koulamoutou, a city of approximately 16,000 people. It is the ninth largest city in Gabon and the home of slightly more than one-third of the provincial population.
