@@ -49,14 +49,11 @@ As previously mentioned, the western coast of Gabon is heavily populated due to 
 
 ![](Project_1_part2_stretch_goal_3.gif)
 
-#### Population distribution calculated as a percentage for each subdivision:
-In the following geometric bar, you can find out how each subdivision accounts for the total population of Gabon:
+#### Population distribution calculated as a percentage for each subdivision and Population Density across Gabon's first subdivisions:
+In the following geometric bar, you can find out how each subdivision accounts for the total population of Gabon as well as the population density for each province.:
 
-![](project_1_part3_Ordered_filled_geom_bar.png)
+![](project_1_part3_population_side_by_side.png)
 
-#### Population Density in Gabon's each first subdivision (province):
-
-![](project_1_part3_population_map_with_density.png)
 
 #### Population Density in Gabon's each second subdivision (districts): 
 This geometric bar shows the population distribution over Gabon's districts. The density of Komo-Mondah district, located in capital Liberville, Estuaire, simply outweighs almost 7 other provinces based on its density. This single district is denser than all other 7 provinces. It is almost twice as denser as Haut-Ogoouie province, one of the most important provinces in Gabon.
