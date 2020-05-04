@@ -3,11 +3,6 @@ By Sayyed Hadi Razmjo
 
 W&M 2023
 
-## Workshop
-1. [Challenge Question](https://srazmjo.github.io/Workshop1/Challenge_question.png)
-2. [First_Plot](https://srazmjo.github.io/Workshop1/plot2.png)
-3. [Linear_Plot_with_Vectors](https://srazmjo.github.io/Workshop1/Rplot.png)
-
 ## Reading Responses
 1. [Blumenstock Response](https://srazmjo.github.io/Workshop1/blumenstock) (Jan. 27th)
 2. [Lloyd Response](https://srazmjo.github.io/Workshop1/Lloyd) (Feb. 10th)
@@ -22,6 +17,9 @@ W&M 2023
 3. [Project_3 Deliverable](https://srazmjo.github.io/Workshop1/project3)
 4. [Project_4_Deliverable](https://srazmjo.github.io/Workshop1/project4)
 
+
+## Final Individual Project:
+[Final Project Deliverable](https://srazmjo.github.io/Workshop1/final_project) 
 
 
 
