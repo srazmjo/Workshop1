@@ -80,11 +80,12 @@ Now that we have plotted different covariates with wrapping pop19 around it, we 
 #### Let's subset Mpassa and explore differences between our linear model estimation and the actual Data from the WorldPop website.
 This original raster object downloaded from the WorldPop website shows the original population distribution:
 ![](project2_part3_actual_population_worldpop.png)
+
 However, after subsetting Mpassa and investigating its population distribution, I found out that my linear model actually overpredicts Mpassa's population distribution in some areas. The following 3-D plot shows the striking overprediction in the central areas of Mpassa, Francesville: 
 
 ![](project2_part2_Mpassa_3d_plot.PNG)
 
-To get a better visualization, consider the following mapview of Mpassa:
+To get a better visualization, consider the following mapview of Mpassa. The purple areas show the major overpredictions by my linear model estimation:
 
 ![](project2_part2_Mpassa_mapview.png)
 
@@ -112,15 +113,21 @@ Matching our results with our initial population distribution map confirms that 
 ![](both_8_pop19_all_polys.png)
 
 #### We can also add road networks and healthcare facilities to analyze the relationship between the location of the identified urban areas and transportation routes and healthcare facilities. 
+
+|Clinics  | Hospitals   |Pharmacies     | Dentists |
+|---------|-------------|---------------|----------|
+|1        |1            |               |          |
+
+
 In the following plot, the orange lines are showing the primary road routes and the blue lines are showing the secondary road networks. Two conclusions can be made: first, the primary road routes are crossing the identified urbanized areas. Second, the roadways are specifically running through our identified density points, showing that roadways are primarily built close to where the density is the most. Given the fact that both Ntem and Woleu are both coastal cities with a lot tourists, there seems to be enough number of transportation routes across both adm2s. The transportation routes joins major urbanized areas with relatively less populated areas and other parts of the subdivision. From the other hand, all healthsites are located at the heart of each subdivison, ensuring the centrality of the healthsite. Though only two healthcare sites can be seen in the whole region, both healthcare sites are located in the heart of our identified urban areas to ensure that major human settlements have adequate access to healthcare. The two green dots in the following map represent the two healthcare facilities across Ntem and Woleu. 
 
 ![](both_11_urban_areas_roads_hospitals_roads.png)
 
 
 
-## Rendering Topography:
-In this part, we will produce some 3-D plots for our combined adm2s. Using our knowledge of where Urban Areas are located, we will also add our urban areas, road networks, and healthsites to our 3-D plots to ensure that our findings in project 3 are consistent with our results.
-In this project, we will use the topographic raster used in project 2. Since we are only analyzing two adm2s (Ntem and Woleu), we should crop the topo raster based on our combined adm2s. After cropping the topographic raster based on our combined adm2s borders, we will get the following topographic plot.
+## Analyzing The Topography Of The Area:
+In this part, we will produce some 3-D plots for our combined adm2s. Using our knowledge of where Urban Areas are located, we will also add our urban areas, road networks, and healthsites to our 3-D plots to ensure that our previous findings and assumptions are consistent with our results.
+We will use the topographic raster used in project 2. Since we are only analyzing two adm2s (Ntem and Woleu), we should crop the topo raster based on our combined adm2s. After cropping the topographic raster based on our combined adm2s borders, we will get the following topographic plot.
 
 ![](1_topo_cut.png)
 
