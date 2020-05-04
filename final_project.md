@@ -70,6 +70,10 @@ This plot shows density based on log of the population accross adm2.
 
 ![](project2_part1_density.png)
 
+Putting them together, the following plot was produced:
+
+![](project2_part1_density&histogram.png)
+
 Now that we have plotted different covariates with wrapping pop19 around it, we will regress the data from multiple variables against each other and examine the correlationship that is being described by the variables. For example, in the following plot, I have estimated a regression model where the population of Gabon in 2019 is the dependent variable, while night time lights (ntl), urban cover (dst190), and bare cover (dst200), topo, slope, dst(010), dst(011), dst(130), dst(140), and other covariates are the independent variables (predictors). This plot highlights all the outliers including Komo-Mondah that is a striking outlier, separated from the rest of the regression model and data. We will also calculate F-statistics and R-adjusted Squared for the linear model. The plot below does a linear model estimation of population distribution based on night time lights data gathered from online resources. 
 
 ![](project2_part1_stretch_goal_adjust.png)
@@ -78,7 +82,7 @@ Now that we have plotted different covariates with wrapping pop19 around it, we 
 This original raster object downloaded from the WorldPop website shows the original population distribution:
 ![](project2_part3_actual_population_worldpop.png)
 
-However, after subsetting Mpassa and investigating its population distribution, I found out that my linear model actually overpredicts Mpassa's population distribution in some areas. The following 3-D plot shows the striking overprediction in the central areas of Mpassa, Francesville: 
+However, after subsetting Mpassa and investigating its population distribution, I found out that my linear model actually overpredicts Mpassa's population distribution in some areas. The peaks in the central areas of Mpassa show the major overpredictions. The following 3-D plot shows the striking overprediction in the central areas of Mpassa, Francesville: 
 
 ![](project2_part2_Mpassa_3d_plot.PNG)
 
@@ -125,13 +129,11 @@ We will use the topographic raster used in project 2. Since we are only analyzin
 
 ![](1_topo_cut.png)
 
-We will also need a political boundary plot so we can add it to the 3-D plot. Below you can find the political boundaries of my combined adm2s:
+We will also need a political boundary plot that contains the urban areas polygons so we can add it to the 3-D plot. Below you can find the political boundaries of my combined adm2s along with its urban areas' polygons:
 
-![](2_only_borders.png)
+![](5_only_borders_with_urban_areas.png)
 
 First, we should convert the cropped raster into a matrix and apply the ambient_shade() command to the topography matrix to produce a three-dimension plot of our combined adm2s. Using our combined matrix and the political boundary plot, we will produce a 3-D plot showing the topographic details of the combined adm2s.
-
-![](4_borders_shown_3d.png)
 
 Next up, we import the urban areas polygons from project 3 to add it to our 3-D plot which is shown below. The topography of the area does not appear to have significant impact on the development of urban areas; however, both urban areas are located near waters. Ntem and Woleu are both coastal cities; thus, creating excellent opportunities for Ntem and Woleu's economies. The waters on the western side of Woleu and northern coast of Ntem, have greatly impacted the population concentration in these cities.
 
