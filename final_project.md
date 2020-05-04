@@ -105,9 +105,6 @@ Using our density plot containing the contour lines, we will create some polygon
 
 ![](Both_7_urban_areas_with_points.png)
 
-Matching our results with our initial population distribution map confirms that the identified urban areas have the highest population and density:
-
-![](both_8_pop19_all_polys.png)
 
 #### We can also add road networks and healthcare facilities to analyze the relationship between the location of the identified urban areas and transportation routes and healthcare facilities. 
 
