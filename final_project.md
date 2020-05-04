@@ -116,7 +116,7 @@ Matching our results with our initial population distribution map confirms that 
 
 |Clinics  | Hospitals   |Pharmacies     | Dentists |
 |---------|-------------|---------------|----------|
-|1        |1            |               |          |
+|1        |1            |0              |0         |
 
 
 In the following plot, the orange lines are showing the primary road routes and the blue lines are showing the secondary road networks. Two conclusions can be made: first, the primary road routes are crossing the identified urbanized areas. Second, the roadways are specifically running through our identified density points, showing that roadways are primarily built close to where the density is the most. Given the fact that both Ntem and Woleu are both coastal cities with a lot tourists, there seems to be enough number of transportation routes across both adm2s. The transportation routes joins major urbanized areas with relatively less populated areas and other parts of the subdivision. From the other hand, all healthsites are located at the heart of each subdivison, ensuring the centrality of the healthsite. Though only two healthcare sites can be seen in the whole region, both healthcare sites are located in the heart of our identified urban areas to ensure that major human settlements have adequate access to healthcare. The two green dots in the following map represent the two healthcare facilities across Ntem and Woleu. 
